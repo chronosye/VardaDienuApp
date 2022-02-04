@@ -1,20 +1,24 @@
 package com.uldisj.vardadienuapp.view.activities
 
 import android.annotation.SuppressLint
+import android.app.AlarmManager
 import android.app.Dialog
+import android.app.PendingIntent
+import android.content.Intent
+import android.content.SharedPreferences
 import android.os.Bundle
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
-import androidx.work.*
+import com.google.android.material.timepicker.MaterialTimePicker
+import com.google.android.material.timepicker.TimeFormat
 import com.uldisj.vardadienuapp.R
 import com.uldisj.vardadienuapp.databinding.ActivityMainBinding
-import com.uldisj.vardadienuapp.model.notification.NotifyWorker
+import com.uldisj.vardadienuapp.model.notification.NotifyReceiver
 import com.uldisj.vardadienuapp.utils.DateUtil
 import com.uldisj.vardadienuapp.viewmodel.NameDayViewModel
-import java.util.concurrent.TimeUnit
+import java.util.*
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,11 +28,34 @@ class MainActivity : AppCompatActivity() {
 
     private var progressDialog: Dialog? = null
 
+    private lateinit var alarmManager: AlarmManager
+    private lateinit var pendingIntent: PendingIntent
+    var calendar: Calendar = Calendar.getInstance()
+
+    private lateinit var settings: SharedPreferences
+    private lateinit var editor: SharedPreferences.Editor
+
+    private lateinit var timePicker: MaterialTimePicker
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setUpActionBar()
+        settings = getSharedPreferences("NameDayAppPreferences", MODE_PRIVATE)
+        editor = settings.edit()
+
+        if(settings.getInt("Hours",-1) == -1){
+            calendar[Calendar.HOUR_OF_DAY] = 12
+            calendar[Calendar.MINUTE] = 0
+            calendar[Calendar.SECOND] = 0
+            calendar[Calendar.MILLISECOND] = 0
+        }else{
+            calendar[Calendar.HOUR_OF_DAY] = settings.getInt("Hours",-1)
+            calendar[Calendar.MINUTE] = settings.getInt("Minutes",-1)
+            calendar[Calendar.SECOND] = 0
+            calendar[Calendar.MILLISECOND] = 0
+        }
 
         nameDayViewModel = ViewModelProvider(this).get(NameDayViewModel::class.java)
         nameDayViewModel.getNameDayFromAPI()
@@ -58,11 +85,35 @@ class MainActivity : AppCompatActivity() {
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         when (item.itemId) {
             R.id.action_settings -> {
-                return true
+                showTimePicker()
             }
         }
 
         return super.onOptionsItemSelected(item)
+    }
+
+    private fun showTimePicker(){
+        timePicker = MaterialTimePicker.Builder()
+            .setTimeFormat(TimeFormat.CLOCK_24H)
+            .setHour(calendar[Calendar.HOUR_OF_DAY])
+            .setMinute(calendar[Calendar.MINUTE])
+            .setTitleText("Lūdzu izvēlies, cikos nosūtīt ziņojumu")
+            .build()
+
+        timePicker.show(supportFragmentManager,"foxandroid")
+
+        timePicker.addOnPositiveButtonClickListener {
+            calendar[Calendar.HOUR_OF_DAY] = timePicker.hour
+            calendar[Calendar.MINUTE] = timePicker.minute
+            calendar[Calendar.SECOND] = 0
+            calendar[Calendar.MILLISECOND] = 0
+            stopWork()
+            startWork()
+            editor.putInt("Hours", timePicker.hour)
+            editor.putInt("Minutes", timePicker.minute)
+            editor.commit()
+        }
+
     }
 
     @SuppressLint("SetTextI18n")
@@ -99,21 +150,22 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.title = ""
     }
 
-    private fun startWork(){
-        WorkManager.getInstance(this)
-            .enqueueUniquePeriodicWork(
-                "Name day Notify Work",
-            ExistingPeriodicWorkPolicy.KEEP,
-            createWorkRequest())
+    private fun startWork() {
+        alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
+        val intent = Intent(this, NotifyReceiver::class.java)
+        pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
+
+        alarmManager.setRepeating(
+            AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
+            AlarmManager.INTERVAL_DAY, pendingIntent
+        )
     }
 
-    private fun createWorkRequest() = PeriodicWorkRequestBuilder<NotifyWorker>(15, TimeUnit.MINUTES)
-        .setConstraints(createConstraints())
-        .build()
+    private fun stopWork(){
+        alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
+        val intent = Intent(this, NotifyReceiver::class.java)
+        pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
 
-    private fun createConstraints() = Constraints.Builder()
-        .setRequiredNetworkType(NetworkType.CONNECTED)
-        .setRequiresCharging(false)
-        .setRequiresBatteryNotLow(false)
-        .build()
+        alarmManager.cancel(pendingIntent)
+    }
 }

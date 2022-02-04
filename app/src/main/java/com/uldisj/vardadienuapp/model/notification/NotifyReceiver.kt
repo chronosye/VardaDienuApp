@@ -3,38 +3,35 @@ package com.uldisj.vardadienuapp.model.notification
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
+import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.Build
 import androidx.annotation.RequiresApi
 import androidx.core.app.NotificationCompat
-import androidx.work.Worker
-import androidx.work.WorkerParameters
 import com.uldisj.vardadienuapp.R
 import com.uldisj.vardadienuapp.model.network.NameDayApiService
 import com.uldisj.vardadienuapp.utils.Constants
 import com.uldisj.vardadienuapp.utils.DateUtil
 import com.uldisj.vardadienuapp.view.activities.MainActivity
 
-class NotifyWorker(context: Context, workerParams: WorkerParameters) :
-    Worker(context, workerParams) {
+class NotifyReceiver : BroadcastReceiver() {
 
     @RequiresApi(Build.VERSION_CODES.O)
-    override fun doWork(): Result {
-        sendNotification()
-        return Result.success()
+    override fun onReceive(context: Context?, intent: Intent?) {
+        sendNotification(context!!)
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
-    private fun sendNotification(){
+    private fun sendNotification(context:Context){
         val notificationId = 0
 
-        val intent = Intent(applicationContext, MainActivity::class.java)
+        val intent = Intent(context, MainActivity::class.java)
         intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
         intent.putExtra(Constants.NOTIFICATION_ID, notificationId)
 
         val notificationManager =
-            applicationContext.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
+            context.getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager
 
         val titleNotification = "Šodien vārda dienu svin:"
         val subtitleNotification: String
@@ -45,10 +42,10 @@ class NotifyWorker(context: Context, workerParams: WorkerParameters) :
         response.removeLast()
         subtitleNotification  = response.toString().substring(1, response.toString().length - 1)
 
-        val pendingIntent = PendingIntent.getActivity(applicationContext, 0, intent, 0)
+        val pendingIntent = PendingIntent.getActivity(context, 0, intent, 0)
 
         val notification =
-            NotificationCompat.Builder(applicationContext, Constants.NOTIFICATION_CHANNEL)
+            NotificationCompat.Builder(context, Constants.NOTIFICATION_CHANNEL)
                 .setContentTitle(titleNotification)
                 .setContentText(subtitleNotification)
                 .setSmallIcon(R.drawable.ic_notification_logo)
