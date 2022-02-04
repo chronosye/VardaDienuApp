@@ -1,6 +1,6 @@
 package com.uldisj.vardadienuapp.viewmodel
 
-import android.annotation.SuppressLint
+import android.util.Log
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.uldisj.vardadienuapp.model.network.NameDayApiService
@@ -9,8 +9,6 @@ import io.reactivex.rxjava3.android.schedulers.AndroidSchedulers
 import io.reactivex.rxjava3.disposables.CompositeDisposable
 import io.reactivex.rxjava3.observers.DisposableSingleObserver
 import io.reactivex.rxjava3.schedulers.Schedulers
-import java.text.SimpleDateFormat
-import java.util.*
 
 class NameDayViewModel : ViewModel() {
 
@@ -45,6 +43,4 @@ class NameDayViewModel : ViewModel() {
                 })
         )
     }
-
-
 }

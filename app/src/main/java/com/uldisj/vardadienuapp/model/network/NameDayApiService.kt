@@ -17,6 +17,9 @@ class NameDayApiService {
         .create(NameDayAPI::class.java)
 
     fun getNameDay(date: String): Single<ArrayList<String>> {
-        return api.getNameDay(Constants.API_KEY,date)
+        return api.getNameDay(
+            Constants.API_KEY,
+            date
+        )
     }
 }
