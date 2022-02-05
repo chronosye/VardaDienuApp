@@ -7,6 +7,7 @@ import android.app.PendingIntent
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -45,14 +46,19 @@ class MainActivity : AppCompatActivity() {
         settings = getSharedPreferences("NameDayAppPreferences", MODE_PRIVATE)
         editor = settings.edit()
 
-        if(settings.getInt("Hours",-1) == -1){
-            calendar[Calendar.HOUR_OF_DAY] = 12
+        if (settings.getInt("Hours", -1) == -1) {
+            calendar[Calendar.HOUR_OF_DAY] = 10
             calendar[Calendar.MINUTE] = 0
             calendar[Calendar.SECOND] = 0
             calendar[Calendar.MILLISECOND] = 0
-        }else{
-            calendar[Calendar.HOUR_OF_DAY] = settings.getInt("Hours",-1)
-            calendar[Calendar.MINUTE] = settings.getInt("Minutes",-1)
+
+            editor.putInt("Hours", calendar[Calendar.HOUR_OF_DAY])
+            editor.putInt("Minutes", calendar[Calendar.MINUTE])
+            editor.commit()
+            startWork()
+        } else {
+            calendar[Calendar.HOUR_OF_DAY] = settings.getInt("Hours", -1)
+            calendar[Calendar.MINUTE] = settings.getInt("Minutes", -1)
             calendar[Calendar.SECOND] = 0
             calendar[Calendar.MILLISECOND] = 0
         }
@@ -60,7 +66,6 @@ class MainActivity : AppCompatActivity() {
         nameDayViewModel = ViewModelProvider(this).get(NameDayViewModel::class.java)
         nameDayViewModel.getNameDayFromAPI()
         nameDayViewModelObserver()
-        startWork()
     }
 
     private fun showProgressDialog() {
@@ -92,15 +97,16 @@ class MainActivity : AppCompatActivity() {
         return super.onOptionsItemSelected(item)
     }
 
-    private fun showTimePicker(){
+    private fun showTimePicker() {
         timePicker = MaterialTimePicker.Builder()
             .setTimeFormat(TimeFormat.CLOCK_24H)
             .setHour(calendar[Calendar.HOUR_OF_DAY])
             .setMinute(calendar[Calendar.MINUTE])
+            .setTheme(R.style.AppTheme_MaterialTimePickerTheme)
             .setTitleText("Lūdzu izvēlies, cikos nosūtīt ziņojumu")
             .build()
 
-        timePicker.show(supportFragmentManager,"foxandroid")
+        timePicker.show(supportFragmentManager, "foxandroid")
 
         timePicker.addOnPositiveButtonClickListener {
             calendar[Calendar.HOUR_OF_DAY] = timePicker.hour
@@ -161,7 +167,7 @@ class MainActivity : AppCompatActivity() {
         )
     }
 
-    private fun stopWork(){
+    private fun stopWork() {
         alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
         val intent = Intent(this, NotifyReceiver::class.java)
         pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
