@@ -2,16 +2,20 @@ package com.uldisj.vardadienuapp.view.activities
 
 import android.annotation.SuppressLint
 import android.app.AlarmManager
+import android.app.AlarmManager.ACTION_SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
 import android.app.Dialog
 import android.app.PendingIntent
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
+import android.provider.Settings
 import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.ViewModelProvider
+import com.google.android.gms.ads.AdRequest
+import com.google.android.gms.ads.MobileAds
 import com.google.android.material.timepicker.MaterialTimePicker
 import com.google.android.material.timepicker.TimeFormat
 import com.uldisj.vardadienuapp.R
@@ -43,8 +47,13 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setUpActionBar()
+
         settings = getSharedPreferences("NameDayAppPreferences", MODE_PRIVATE)
         editor = settings.edit()
+
+        MobileAds.initialize(this)
+        val adRequest = AdRequest.Builder().build()
+        binding.adView.loadAd(adRequest)
 
         if (settings.getInt("Hours", -1) == -1) {
             calendar[Calendar.HOUR_OF_DAY] = 10

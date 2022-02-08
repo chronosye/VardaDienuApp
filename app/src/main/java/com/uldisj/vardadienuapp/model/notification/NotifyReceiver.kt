@@ -1,5 +1,6 @@
 package com.uldisj.vardadienuapp.model.notification
 
+import android.app.AlarmManager
 import android.app.NotificationChannel
 import android.app.NotificationManager
 import android.app.PendingIntent
@@ -7,19 +8,39 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.os.Build
+import android.util.Log
 import androidx.annotation.RequiresApi
+import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.NotificationCompat
 import com.uldisj.vardadienuapp.R
 import com.uldisj.vardadienuapp.model.network.NameDayApiService
 import com.uldisj.vardadienuapp.utils.Constants
 import com.uldisj.vardadienuapp.utils.DateUtil
 import com.uldisj.vardadienuapp.view.activities.MainActivity
+import java.util.*
 
 class NotifyReceiver : BroadcastReceiver() {
+
 
     @RequiresApi(Build.VERSION_CODES.O)
     override fun onReceive(context: Context?, intent: Intent?) {
         sendNotification(context!!)
+        if (intent!!.action == "android.intent.action.BOOT_COMPLETED") {
+            val alarmManager = context.getSystemService(AppCompatActivity.ALARM_SERVICE) as AlarmManager
+            val intentFromRestart = Intent(context, NotifyReceiver::class.java)
+            val pendingIntent = PendingIntent.getBroadcast(context, 0, intentFromRestart, 0)
+            val settings = context.getSharedPreferences("NameDayAppPreferences", AppCompatActivity.MODE_PRIVATE)
+
+            val calendar = Calendar.getInstance()
+            calendar[Calendar.HOUR_OF_DAY] = settings.getInt("Hours", 10)
+            calendar[Calendar.MINUTE] = settings.getInt("Minutes", 0)
+
+            alarmManager.setRepeating(
+                AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
+                AlarmManager.INTERVAL_DAY, pendingIntent
+            )
+        }
+
     }
 
     @RequiresApi(Build.VERSION_CODES.O)
