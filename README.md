@@ -8,4 +8,4 @@ Names are retriewed from [APIS.lv API](http://apis.lv/namedays/info)
 - RxJava3
 - Coroutines
 - Ads
-<img src="https://github.com/chronosye/VardaDienuApp/blob/main/readme.png" height="450">
+<img src="https://github.com/chronosye/VardaDienuApp/blob/main/readme.png">
