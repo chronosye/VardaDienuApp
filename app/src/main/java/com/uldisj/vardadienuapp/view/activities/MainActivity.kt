@@ -22,6 +22,7 @@ import com.uldisj.vardadienuapp.R
 import com.uldisj.vardadienuapp.databinding.ActivityMainBinding
 import com.uldisj.vardadienuapp.model.notification.NotifyReceiver
 import com.uldisj.vardadienuapp.utils.DateUtil
+import com.uldisj.vardadienuapp.utils.NetworkChecker
 import com.uldisj.vardadienuapp.viewmodel.NameDayViewModel
 import java.util.*
 

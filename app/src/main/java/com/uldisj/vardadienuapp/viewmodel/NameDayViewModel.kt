@@ -38,7 +38,6 @@ class NameDayViewModel : ViewModel() {
                     override fun onError(e: Throwable) {
                         loadNameDay.value = false
                         nameDayLoadingError.value = true
-                        e.printStackTrace()
                     }
                 })
         )

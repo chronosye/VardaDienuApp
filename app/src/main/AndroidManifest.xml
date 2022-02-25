@@ -16,10 +16,11 @@
         android:theme="@style/Theme.VardaDienuApp">
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-xxxxxxxxxxxxxxxx~yyyyyyyyyy"/>
+            android:value="ca-app-pub-9231150024142787~2116039635"/>
         <activity
             android:name=".view.activities.MainActivity"
             android:exported="true"
+            android:screenOrientation="portrait"
             android:theme="@style/Theme.VardaDienuApp.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
