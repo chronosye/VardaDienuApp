@@ -171,9 +171,8 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, NotifyReceiver::class.java)
         pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
 
-        alarmManager.setRepeating(
-            AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
-            AlarmManager.INTERVAL_DAY, pendingIntent
+        alarmManager.setExact(
+            AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent
         )
     }
 

@@ -13,39 +13,37 @@ import com.uldisj.vardadienuapp.R
 import com.uldisj.vardadienuapp.model.network.NameDayApiService
 import com.uldisj.vardadienuapp.utils.Constants
 import com.uldisj.vardadienuapp.utils.DateUtil
-import com.uldisj.vardadienuapp.utils.NetworkChecker
 import com.uldisj.vardadienuapp.view.activities.MainActivity
 import java.util.*
-import kotlin.collections.ArrayList
 
 
 class NotifyReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
 
-        val checker = NetworkChecker().checkForInternet(context!!)
-        if(checker){
-            sendNotification(context)
-        }
+        val alarmManager =
+            context!!.getSystemService(AppCompatActivity.ALARM_SERVICE) as AlarmManager
+        val intentFromRestart = Intent(context, NotifyReceiver::class.java)
+        val pendingIntent = PendingIntent.getBroadcast(context, 0, intentFromRestart, 0)
+        val settings = context.getSharedPreferences(
+            "NameDayAppPreferences",
+            AppCompatActivity.MODE_PRIVATE
+        )
+
+        val calendar = Calendar.getInstance()
+        calendar[Calendar.HOUR_OF_DAY] = settings.getInt("Hours", 10)
+        calendar[Calendar.MINUTE] = settings.getInt("Minutes", 0)
+
+        sendNotification(context)
+        calendar.add(Calendar.DAY_OF_MONTH, 1);
+        alarmManager.setExact(
+            AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent
+        )
+
         if (intent!!.action == "android.intent.action.BOOT_COMPLETED") {
-            val alarmManager =
-                context.getSystemService(AppCompatActivity.ALARM_SERVICE) as AlarmManager
-            val intentFromRestart = Intent(context, NotifyReceiver::class.java)
-            val pendingIntent = PendingIntent.getBroadcast(context, 0, intentFromRestart, 0)
-            val settings = context.getSharedPreferences(
-                "NameDayAppPreferences",
-                AppCompatActivity.MODE_PRIVATE
-            )
-
-            val calendar = Calendar.getInstance()
-            calendar[Calendar.HOUR_OF_DAY] = settings.getInt("Hours", 10)
-            calendar[Calendar.MINUTE] = settings.getInt("Minutes", 0)
-
-            alarmManager.setRepeating(
-                AlarmManager.RTC_WAKEUP, calendar.timeInMillis,
-                AlarmManager.INTERVAL_DAY, pendingIntent
+            alarmManager.setExact(
+                AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent
             )
         }
-
     }
 
     private fun sendNotification(context: Context) {
@@ -64,9 +62,13 @@ class NotifyReceiver : BroadcastReceiver() {
 
         nameDayApiService.getNameDay(DateUtil().getDate("MM-dd")).subscribe { list ->
             list.removeLast()
-            val subtitleNotification = list.toString().substring(1, list.toString().length - 1)
+            var subtitleNotification = list.toString().substring(1, list.toString().length - 1)
 
             val pendingIntent = PendingIntent.getActivity(context, 0, intent, 0)
+
+            if(subtitleNotification.isBlank()){
+                subtitleNotification = "Kaut kas nogājas greizi";
+            }
 
             val notification =
                 NotificationCompat.Builder(context, Constants.NOTIFICATION_CHANNEL)
@@ -86,10 +88,7 @@ class NotifyReceiver : BroadcastReceiver() {
             )
 
             notificationManager.createNotificationChannel(channel)
-
-            if (subtitleNotification.isNotBlank()) {
-                notificationManager.notify(notificationId, notification.build())
-            }
+            notificationManager.notify(notificationId, notification.build())
         }
     }
 }
