@@ -171,7 +171,7 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, NotifyReceiver::class.java)
         pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
 
-        alarmManager.setExact(
+        alarmManager.setExactAndAllowWhileIdle(
             AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent
         )
     }
