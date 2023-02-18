@@ -2,14 +2,11 @@ package com.uldisj.vardadienuapp.view.activities
 
 import android.annotation.SuppressLint
 import android.app.AlarmManager
-import android.app.AlarmManager.ACTION_SCHEDULE_EXACT_ALARM_PERMISSION_STATE_CHANGED
 import android.app.Dialog
 import android.app.PendingIntent
 import android.content.Intent
 import android.content.SharedPreferences
 import android.os.Bundle
-import android.provider.Settings
-import android.util.Log
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
@@ -22,7 +19,6 @@ import com.uldisj.vardadienuapp.R
 import com.uldisj.vardadienuapp.databinding.ActivityMainBinding
 import com.uldisj.vardadienuapp.model.notification.NotifyReceiver
 import com.uldisj.vardadienuapp.utils.DateUtil
-import com.uldisj.vardadienuapp.utils.NetworkChecker
 import com.uldisj.vardadienuapp.viewmodel.NameDayViewModel
 import java.util.*
 
@@ -74,7 +70,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         nameDayViewModel = ViewModelProvider(this).get(NameDayViewModel::class.java)
-        nameDayViewModel.getNameDayFromAPI()
+        nameDayViewModel.getNameDay(this)
         nameDayViewModelObserver()
     }
 
@@ -137,7 +133,7 @@ class MainActivity : AppCompatActivity() {
         nameDayViewModel.nameDayResponse.observe(this) { nameDayResponse ->
             nameDayResponse?.let {
                 binding.tvNameDays.text =
-                    nameDayResponse.toString().substring(1, nameDayResponse.toString().length - 1)
+                    nameDayResponse.toString()
                 binding.tvDate.text = DateUtil().getDate("dd")
                 binding.tvDayText.text = DateUtil().getDayInLatvian()
                 binding.tvMonthText.text = DateUtil().getMonthInLatvian()
