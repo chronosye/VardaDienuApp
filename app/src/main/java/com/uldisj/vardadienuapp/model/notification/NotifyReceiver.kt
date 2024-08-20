@@ -23,7 +23,7 @@ class NotifyReceiver : BroadcastReceiver() {
         val alarmManager =
             context.getSystemService(AppCompatActivity.ALARM_SERVICE) as AlarmManager
         val intentFromRestart = Intent(context, NotifyReceiver::class.java)
-        val pendingIntent = PendingIntent.getBroadcast(context, 0, intentFromRestart, 0)
+        val pendingIntent = PendingIntent.getBroadcast(context, 0, intentFromRestart, PendingIntent.FLAG_IMMUTABLE)
         val settings = context.getSharedPreferences(
             "NameDayAppPreferences",
             AppCompatActivity.MODE_PRIVATE
@@ -61,15 +61,16 @@ class NotifyReceiver : BroadcastReceiver() {
 
         val assetManager = context.assets
 
-        val jsonString = assetManager.open("namedays.json").bufferedReader().use { it.readText() }
+        val jsonString = assetManager.open("namedaysExtended.json").bufferedReader().use { it.readText() }
 
         val day = DateUtil().getDate("dd")
         val month = DateUtil().getDate("MM")
 
         val jsonObject = JSONObject(jsonString)
-        val subtitleNotification = jsonObject.getJSONObject(month).getString(day)
+        val subtitleNotification =
+            jsonObject.getJSONObject(month).getJSONObject(day).getString("regular")
 
-        val pendingIntent = PendingIntent.getActivity(context, 0, intent, 0)
+        val pendingIntent = PendingIntent.getActivity(context, 0, intent, PendingIntent.FLAG_IMMUTABLE)
 
         val notification =
             NotificationCompat.Builder(context, Constants.NOTIFICATION_CHANNEL)
@@ -79,6 +80,7 @@ class NotifyReceiver : BroadcastReceiver() {
                 .setDefaults(NotificationCompat.DEFAULT_ALL)
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true)
+                .addAction(0,"Apskatīt kalendārā neierakstītos vārdus", pendingIntent)
 
         notification.priority = NotificationCompat.PRIORITY_LOW
 

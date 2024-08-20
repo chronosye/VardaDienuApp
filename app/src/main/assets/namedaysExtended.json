@@ -1,0 +1,1490 @@
+{
+  "01": {
+    "01": {
+      "regular": "Laimnesis, Solvita, Solvija",
+      "additional": "Afra, Afrodīte, Agunda, Agurs, Januārija, Laimstars, Soleda, Solita, Solveta"
+    },
+    "02": {
+      "regular": "Indulis, Ivo, Iva, Ivis",
+      "additional": "Induls, Īva, Ivaise, Īve, Ivija, Īvija, Ivika, Īvis, Ivisa, Ivs"
+    },
+    "03": {
+      "regular": "Miervaldis, Miervalda, Ringolds",
+      "additional": "Ambrozijs, Ammonārija, Ammunārija, Mežvaldis, Mieriņš, Miermīlis, Miernesis, Miervalds, Ringla, Ringo, Rinolds"
+    },
+    "04": {
+      "regular": "Spodra, Ilva, Ilvita",
+      "additional": "Amina, Amīna, Amirans, Amirs, Blāzma, Ilveta, Ilvis, Spodrīte"
+    },
+    "05": {
+      "regular": "Sīmanis, Zintis",
+      "additional": "Amrita, Amunds, Anarita, Saimona, Saimons, Seimanis, Semions, Semjons, Simeons, Simions, Simons, Zintauts, Zinturs"
+    },
+    "06": {
+      "regular": "Spulga, Arnita",
+      "additional": "Arams, Aranta, Arfa, Arnīda, Arnija, Arnika"
+    },
+    "07": {
+      "regular": "Rota, Zigmārs, Juliāns, Digmārs",
+      "additional": "Džulians, Julians, Jūlians, Jūliāns, Sigmars, Sigmārs, Zigmāra, Zigmāris, Zigmars"
+    },
+    "08": {
+      "regular": "Gatis, Ivanda",
+      "additional": "Ants, Aristarhs, Aristida, Aristīda, Aristids, Aristīds, Aristons, Aristrīds, Arjana, Arlands, Arleta, Arlēna, Arlijs, Arlita, Gatiņš, Īvande, Ivanna, Ivase, Ivena"
+    },
+    "09": {
+      "regular": "Kaspars, Aksels, Alta",
+      "additional": "Aksela, Akselis, Veiko, Vello, Velonija"
+    },
+    "10": {
+      "regular": "Tatjana, Dorisa",
+      "additional": "Doreta, Dorina, Dorita, Tanisa, Tanita, Taņa"
+    },
+    "11": {
+      "regular": "Smaida, Franciska",
+      "additional": "Aruns, Arūns, Francisks, Francišeks, Franciška, Frančeska, Frančiska, Františeks, Smaidiņa, Smaidīte, Smaidonis, Smaidra, Smailis"
+    },
+    "12": {
+      "regular": "Reinis, Reina, Reinholds, Renāts",
+      "additional": "Anisija, Aņisija, Aņisja, Redženalds, Redžinalds, Reginalds, Regnalds, Regnolds, Reinhards, Reino, Reinolds, Reinvalds, Renalda, Renalds, Renato, Renats, Renolds, Rinats"
+    },
+    "13": {
+      "regular": "Harijs, Ārijs, Āris, Aira",
+      "additional": "Airika, Airiks, Airis, Āra, Arends, Ārends, Ārens, Aress, Ariela, Ariels, Arigo, Arijs, Ariko, Ariks, Āriks, Aris, Ariss, Harija, Harina, Haris, Harita, Haritina"
+    },
+    "14": {
+      "regular": "Roberts, Roberta, Raitis, Raits",
+      "additional": "Robērs, Robertīne, Roberto, Robija, Robijs, Robina, Robins"
+    },
+    "15": {
+      "regular": "Fēlikss, Felicita",
+      "additional": "Asola, Aspazija, Aspāzija, Asunta, Atēna, Feliciana, Feliciāna, Felicianna, Felicians, Felicija, Felīcija, Felicijana, Felicijans, Felicjana, Felikarmena, Felikss, Felīsija, Filicija"
+    },
+    "16": {
+      "regular": "Lidija, Lida",
+      "additional": "Avija, Avita, Aviva, Āvo, Gordejs, Līda, Lidita"
+    },
+    "17": {
+      "regular": "Tenis, Dravis",
+      "additional": "Denisa, Denise, Deniss, Denīza, Denīze, Deņiss, Dionisijs, Dioniss, Dionizijs, Radions, Rodions, Trofims"
+    },
+    "18": {
+      "regular": "Antons, Antis, Antonijs",
+      "additional": "Acons, Antans, Antars, Antonio, Antuans, Antuāns, Entonijs, Ontons, Tonijs"
+    },
+    "19": {
+      "regular": "Andulis, Alnis",
+      "additional": "Alna, Alnars, Alnors, Džeida, Džellija, Džozelīna"
+    },
+    "20": {
+      "regular": "Oļģerts, Orests, Aļģirds, Aļģis",
+      "additional": "Algarts, Algers, Algirds, Alģirds, Alģirts, Aļģerts, Aļģimants, Aļģirts, Odisejs, Olgerts, Oļģerds, Orfejs, Orīda"
+    },
+    "21": {
+      "regular": "Agnese, Agnija, Agne",
+      "additional": "Agna, Agnars, Agnārs, Agnesa, Agnesija, Agneška, Agņeška, Urdze, Urdziņa"
+    },
+    "22": {
+      "regular": "Austris",
+      "additional": "Bendžamins, Beneventa, Benija, Benijs, Benjamina, Benjamins, Benjamiņš, Benjāmiņš, Benno, Beno, Benoventa, Bens"
+    },
+    "23": {
+      "regular": "Grieta, Strauta, Rebeka",
+      "additional": "Bazils, Bažena, Bekija, Božena, Greisa, Greisija, Greta, Grēta, Grietiņa, Reveka, Straumīte, Vasilijs, Vasīlijs, Vasilika, Vasilisa, Vasils, Virta"
+    },
+    "24": {
+      "regular": "Krišs, Ksenija, Eglons, Egle",
+      "additional": "Aksenija, Eglis, Krišus, Ksendija, Ksēnija"
+    },
+    "25": {
+      "regular": "Zigurds, Sigurds, Sigvards",
+      "additional": "Berenika, Berils, Berita, Beruta, Boneta, Bonija, Bonijs, Sigorts, Sigurts, Sigvars, Sigvarts, Zigo, Zigonis, Zigurts, Zigvards"
+    },
+    "26": {
+      "regular": "Ansis, Agnis, Agneta",
+      "additional": "Agnete, Agneze, Agnēze, Agnita, Hanss, Hanzija, Karps, Polikarps"
+    },
+    "27": {
+      "regular": "Ilze, Ildze, Izolde",
+      "additional": "Ilza, Ilzīte, Izolda, Ilāra, Ilards, Ilarija, Ilārija, Ilarijs, Ilārijs, Ilars, Ilārs, Illa, Illarija, Tristans"
+    },
+    "28": {
+      "regular": "Kārlis, Spodris",
+      "additional": "Bianka, Čarita, Čārlijs, Čārlzs, Karels, Karolis, Karols"
+    },
+    "29": {
+      "regular": "Aivars, Valērijs, Bille",
+      "additional": "Aivalds, Aivārs, Billijs, Bils, Valerians, Valeriāns, Valerijans, Valerijāns, Valerijs, Valerjans, Valerjāns, Velerjans"
+    },
+    "30": {
+      "regular": "Tīna, Valentīna, Pārsla",
+      "additional": "Biminita, Binija, Binnija, Bivšaka, Pārsliņa, Stīna, Stīne, Tiāre, Tina, Tīne, Valentija, Valentina, Valentine, Valentīne, Vaļa"
+    },
+    "31": {
+      "regular": "Tekla, Violeta",
+      "additional": "Bonaventura, Bonaventūra, Bonaventūrs, Bonoventura, Tikla, Tīksma, Viorika"
+    }
+  },
+  "02": {
+    "01": {
+      "regular": "Brigita, Indra, Indars, Indris",
+      "additional": "Inda, Birgita, Briāna, Bridžeta, Bridžita, Brikena, Brita, Britānija"
+    },
+    "02": {
+      "regular": "Spīdola, Sonora",
+      "additional": "Braens, Braiens, Braijens, Brains, Randa, Randija, Randolfs"
+    },
+    "03": {
+      "regular": "Aīda, Ida, Vida",
+      "additional": "Aida, Aidars, Aidis, Alaida, Cezarija, Cezars, Cēzars, Īda, Ideja, Idilija, Idra"
+    },
+    "04": {
+      "regular": "Daila, Veronika, Dominiks",
+      "additional": "Daile, Dome, Domenika, Domeniks, Domija, Dominika, Domuse, Varenika, Varonika, Veranika, Veronija"
+    },
+    "05": {
+      "regular": "Agate, Selga, Silga, Sinilga",
+      "additional": "Agafija, Agata, Agāte, Agatons, Seldzis, Seleste, Silja"
+    },
+    "06": {
+      "regular": "Dace, Dārta, Dora",
+      "additional": "Dacija, Dacis, Dacīte, Dadzis, Darels, Darens, Darija, Dārija, Dārijs, Darina, Dario, Daris, Dariuss, Dariušs, Darja, Dārte, Dorateja, Dore, Dorota, Doroteja, Dorotija, Dorta, Dorte"
+    },
+    "07": {
+      "regular": "Nelda, Rihards, Ričards, Rišards",
+      "additional": "Dikijs, Diks, Nilda, Ričijs, Ričs, Riho, Rikarda, Rikardo, Rikijs, Riks, Rišārs"
+    },
+    "08": {
+      "regular": "Aldona, Česlavs",
+      "additional": "Aldone, Aldonija, Čelsija, Čereta, Česlava, Čezeta, Dabris, Dafnis, Danko"
+    },
+    "09": {
+      "regular": "Simona, Apolonija",
+      "additional": "Apolinarija, Apolinārija, Apolinarijs, Apolinārijs, Apolinars, Apolinārs, Apolons, Debora, Dedze, Deizija, Denora, Deriāna, Destane, Dezija, Dēzija, Raisa, Raisma, Raja, Simone, Simoneta"
+    },
+    "10": {
+      "regular": "Paulīne, Paula, Jasmīna",
+      "additional": "Diāra, Dida, Dijs, Dūda, Džasmina, Džasmīna, Džasmīne, Jasmina, Jasmīne, Paļina, Paulamarija, Pauleta, Paulina, Paulīna, Pauline, Pavlina, Pavlīna, Pavlīne, Polianna, Polina, Polīna, Poļina, Sholastika, Sholostika, Skolastika, Skolestika, Skolostika, Žasmīne"
+    },
+    "11": {
+      "regular": "Laima, Laimdota",
+      "additional": "Fortunata, Gerasims, Laimiņa, Laimīte, Laimute"
+    },
+    "12": {
+      "regular": "Karlīna, Līna",
+      "additional": "Džigunda, Džilda, Džoija, Džoisa, Džoja, Karalina, Karalīna, Karla, Kārla, Karlina, Karlīne, , Karola, Karolina, Karolīna, Karolīne, Karulina, Kerija, Kerijs, Kerola, Kerolaina, Kerolaine, Lina, Līne, Lineta, Linija, Linita, Lins, Linus, Linuss"
+    },
+    "13": {
+      "regular": "Malda, Melita",
+      "additional": "Džordans, Džordijs, Jordans, Maldiņa, Maldis, Maldonis, Melitina"
+    },
+    "14": {
+      "regular": "Valentīns",
+      "additional": "Eberhards, Edla, Edmans, Edmārs, Edna, Eginhards, Egmārs, Egnārs, Valeks, Valentijs, Valentins, Valents, Valtīns"
+    },
+    "15": {
+      "regular": "Alvils, Olafs, Aloizs, Olavs",
+      "additional": "Alodija, Aloida, Aloīda, Aloiza, Aloizija, Aloizijs, Aloīzijs, Aloizis, Aloīzs, Alvids, Olands, Olārs, Olavi, Olevs"
+    },
+    "16": {
+      "regular": "Jūlija, Džuljeta",
+      "additional": "Džuliana, Džulianna, Džulija, Džūlija, Jūla, Jule, Jūle, Juliana, Juliāna, Jūliana, Jūliāna, Julianija, Julianna, Jūlianna, Julija, Julijana, Jūlijana, Julijanna, Julita, Juļjana"
+    },
+    "17": {
+      "regular": "Donats, Konstance",
+      "additional": "Danats, Donalds, Donata, Donāta, Donāte, Donāts, Donna, Donvina, Konstancija, Konstantija, Konstantina, Konstantīna, Konstantīne, Vaino, Veino"
+    },
+    "18": {
+      "regular": "Kora, Kintija",
+      "additional": "Cina, Cintija, Ciprians, Ciprijans, Konkordija, Korina, Kuprijans"
+    },
+    "19": {
+      "regular": "Zane, Zuzanna",
+      "additional": "Efeja, Eifrozīne, Jefrosinija, Jefrosīnija, Sjuzanna, Sjuzena, Susanna, Suzana, Suzanna, Zana, Zanita, Zanna, Zuzana, Zuze"
+    },
+    "20": {
+      "regular": "Vitauts, Smuidra, Smuidris",
+      "additional": "Egberts, Egdijs, Egerts, Egida, Egidijs, Hulda, Smuidrīte, Vijtauts, Vītauts"
+    },
+    "21": {
+      "regular": "Eleonora, Ariadne",
+      "additional": "Ariadna, Arialds, Arilds, Eleanora, Elenora, Elionora, Elona, Illi, Illo, Ilo"
+    },
+    "22": {
+      "regular": "Ārija, Rigonda, Adrians, Adriāna, Adrija",
+      "additional": "Adreans, Adria, Adriana, Adrianna, Adriāns, Adris, Areta, Aretijs, Arets, Ariana, Ariāna, Arianda, Ariandra, Arianna, Arians, Arida, Arīda, Arija, Arika, Ārika, Arimanda, Arimands, Ārīte, Rigonds"
+    },
+    "23": {
+      "regular": "Haralds, Almants",
+      "additional": "Almands, Almonds, Aralda, Aralds, Haralda, Harolds, Herolds, Heronija"
+    },
+    "24": {
+      "regular": "Diāna, Dina, Dins",
+      "additional": "Deina, Deinis, Deins, Dēna, Dens, Devins, Diana, Diandra, Dianna, Dīna, Dinis, Dino, Dīns, Diona, Dīva, Divja, Dīvs"
+    },
+    "25": {
+      "regular": "Alma, Annemarija",
+      "additional": "Almāra, Almars, Almārs, Almīra, Andārta, Annemarija, Ankatrīna, Anlīza, Anlīze, Anlizeta, Anmāra, Anmarija, Annaklāra, Annamarija, Annmarija, Gunmāra"
+    },
+    "26": {
+      "regular": "Evelīna, Aurēlija, Mētra",
+      "additional": "Aurelija, Aurelijs, Aurēlijs, Aurels, Elvina, Elvīna, Elvīne, Elvings, Elvins, Elvīns, Evalīna, Evandželīna, Evelina, Eveline, Evelīne, Zoja"
+    },
+    "27": {
+      "regular": "Līvija, Līva, Andra",
+      "additional": "Andre, Andrelita, Andreta, Andriana, Andriāna, Andrija, Andrijana, Andrika, Andrita, Andromeda, Liva, Livars, Liveta, Livija, Līvis, Livita, Līvs"
+    },
+    "28": {
+      "regular": "Skaidrīte, Justs, Skaidra",
+      "additional": "Eigits, Elārs, Elčins, Justins, Justīns, Skaidre, Skaila"
+    },
+    "29": {
+      "regular": "-",
+      "additional": "-"
+    }
+  },
+  "03": {
+    "01": {
+      "regular": "Ivars, Ilgvars",
+      "additional": "Elda, Eldars, Eldijs, Elektra, Elerts, Igvars, Ilgvalds, Ilgvards, Ilgvaris, Ilgvārs, Ivāra, Ivārs"
+    },
+    "02": {
+      "regular": "Lavīze, Luīze, Laila",
+      "additional": "Emeralds, Emerihs, Emeriks, Imre, Laija, Lailita, Lovisa, Luisa, Luise, Luiza, Luīza, Luize"
+    },
+    "03": {
+      "regular": "Tālis, Tālavs, Marts",
+      "additional": "Mārts, Riglinda, Rigmora, Rigo"
+    },
+    "04": {
+      "regular": "Alise, Auce, Enija",
+      "additional": "Alicija, Alīcija, Alisa, Alīsa, Alīse, Alisija, Alīsija, Alisters, Alsis, Einija, Elīsija, Ena, Enārs, Enda, Endija, Endijs, Endo, Ene, Enia, Enīda, Enijs, Enika, Enina, Enita, Ennata, Ennija, Enno, Ensija, Enta, Envija, Enzo"
+    },
+    "05": {
+      "regular": "Austra, Aurora",
+      "additional": "Aura, Aurika, Austrīte, Aušra, Enoks"
+    },
+    "06": {
+      "regular": "Vents, Centis, Gotfrīds",
+      "additional": "Censonis, Censons, Centa, Centolla, Centonis, Godfrīds, Godvars, Gotards, Gothards, Gotlība, Ventis"
+    },
+    "07": {
+      "regular": "Ella, Elmīra",
+      "additional": "Ellada, Ellija, Elmira, Eļa, Eļmira, Eridana, Eridāna, Erīda, Erims, Erina, Erīna, Erita, Helmīra"
+    },
+    "08": {
+      "regular": "Dagmāra, Marga, Margita",
+      "additional": "Dagita, Dagmara, Dagmars, Dagmārs, Dagrita, Magrita, Margo"
+    },
+    "09": {
+      "regular": "Ēvalds",
+      "additional": "Evalds, Ievalds, Ivalds, Filemona, Filgita, Filimona, Filimonija, Filiomena, Filomeja, Filomena, Filumena, Fiļimona, Pilimona, Vilemons"
+    },
+    "10": {
+      "regular": "Silvija, Laimrota, Liliāna",
+      "additional": "Laimrita, Lilana, Lili, Liliana, Lilianna, Lilians, Liliāns, Lilijana, Lilinda, Lilioza, Liljana, Lilli, Lilu, Tarass, Zilvija"
+    },
+    "11": {
+      "regular": "Konstantīns, Agita",
+      "additional": "Abita, Agika, Agisa, Aģis, Esams, Esēnija, Esija, Jesēnija, Konstantins"
+    },
+    "12": {
+      "regular": "Aija, Aiva, Aivis",
+      "additional": "Aivika, Aivils, Aivo, Ajita, Ešlija, Eta, Etele, Etelvīne, Etere, Eteri, Etīna, Etjēns, Etnija"
+    },
+    "13": {
+      "regular": "Ernests, Balvis",
+      "additional": "Baldūrs, Erasts, Ernijs, Ernis, Ernsts, Eulalija, Eulālija, Euzebijs, Nesters, Nestors, Nikifors, Ņikifors"
+    },
+    "14": {
+      "regular": "Matilde, Ulrika",
+      "additional": "Eventijs, Everika, Evrika, Matilda, Ulrihs, Ulriks"
+    },
+    "15": {
+      "regular": "Amilda, Amalda, Imalda",
+      "additional": "Fabians, Fabiāns, Fabijans, Fabijāns, Ima, Imelda, Imula, Inelda"
+    },
+    "16": {
+      "regular": "Guntis, Guntars, Guntris",
+      "additional": "Falks, Gaija, Guntārs, Gunts, Gutars"
+    },
+    "17": {
+      "regular": "Ģertrūde, Gerda",
+      "additional": "Ferdinands, Ferijs, Fernands, Gerarda, Gerards, Gerds, Gerhards, Gertija, Gertruda, Gertrūda, Gertrude, Gertrūde, Gerts, Ģertruda, Ģertrūda, Ģertrude, Trauta, Trautiņa, Trūde, Trūta, Trūte, Žerārs"
+    },
+    "18": {
+      "regular": "Ilona, Adelīna",
+      "additional": "Adelaine, Adelfina, Adelina, Adeļina, Fetna, Ilana, Ilāna, Ilanda, Ilanta, Ileana, Iliana, Ilija, Ilita, Ilonda, Ilone, Ilonija, Ilons"
+    },
+    "19": {
+      "regular": "Jāzeps, Juzefa",
+      "additional": "Jāzepa, Jazepata, Jazeps, Jazupata, Jezufata, Jezupata, Jezupate, Jezups, Jēzups, Jozefa, Jozefata, Jozefina, Jozefīna, Jozefine, Jozefīne, Jozefs, Jozs, Juzefata, Juzefate, Juzefina, Juzefīna, Juzefine, Juzefs, Juzepa, Juzepata, Juzepate, Juzufata, Osips, Žozefina, Žozefs"
+    },
+    "20": {
+      "regular": "Made, Irbe",
+      "additional": "Fraskita, Frementijs, Fritjofs, Madaļa, Madrija"
+    },
+    "21": {
+      "regular": "Una, Unigunde, Dzelme, Benedikts, Benedikta",
+      "additional": "Abigeila, Dementijs, Demija, Geila, Gelārijs, Kunegunda, Kunigunda, Kuno, Ūma, Ūna, Unigunda, Unija, Unika, Ūnika, Unita, Uno, Venedikts"
+    },
+    "22": {
+      "regular": "Tamāra, Dziedra, Gabriels, Gabriela",
+      "additional": "Ciedra, Damars, Damārs, Damians, Damijs, Damirs, Gabija, Gabriēla, Gabriele, Gabriella, Gabriēls, Gavrils, Gedra, Giedra, Ģiedra, Tamara, Tamārs"
+    },
+    "23": {
+      "regular": "Mirdza, Žanete, Žanna",
+      "additional": "Džana, Džaneta, Džanete, Džanita, Džeina, Džena, Dženeta, Dženete, Dženifera, Dženita, Džesija, Džesika, Džina, Džīna, Džineta, Džinita, Džoanna, Janeta, Janete, Janita, Janta, Jesija, Žana, Žaneta, Žanija, Žanneta"
+    },
+    "24": {
+      "regular": "Kazimirs, Izidors",
+      "additional": "Džeralda, Džeraldīne, Džeralds, Džerijs, Garlībs, Geraldina, Geralds, Izida, Izīda, Kazemirs, Kazimerina, Kazimira, Kazimirina, Kazis, Kazmerina, Kazmers, Kazmirina, Sidars, Sidors, Zidra"
+    },
+    "25": {
+      "regular": "Māra, Mārīte, Marita, Mare, Ģedimins",
+      "additional": "Geda, Gēda, Gedimins, Gregors, Grigorijs, Grigors, Ģēda, Mara, Māre, Mareta, Māreta, Mārieta, Marijeta, Mārita, Marite, Marīte, Marjeta"
+    },
+    "26": {
+      "regular": "Eiženija, Ženija",
+      "additional": "Dženija, Eižēnija, Eugenija, Eugēnija, Euģenija, Euģēnija, Evgenija, Evgēnija, Evģenija, Evģēnija, Gelija, Gēlija, Gelinta, Žene, Ženijs"
+    },
+    "27": {
+      "regular": "Gustavs, Gusts, Tālrīts, Saulis",
+      "additional": "Genefa, Generoza, Genija, Genita, Gentra, Gerita, Gesta, Sauļus, Tālrids, Tālrita, Tālrits"
+    },
+    "28": {
+      "regular": "Gunta, Ginta, Gunda",
+      "additional": "Gianeja, Gina, Gineta, Ginita, Gintija, Gonda, Gundija, Gundis, Guntiņa, Ģinta, Igunda"
+    },
+    "29": {
+      "regular": "Aldonis, Agija",
+      "additional": "Agejs, Agijs, Aldons, Gilberts"
+    },
+    "30": {
+      "regular": "Nanija, Ilgmārs",
+      "additional": "Igmārs, Ignars, Ilgmars, Nana, Nanete, Nannija, Nena"
+    },
+    "31": {
+      "regular": "Gvido, Atvars",
+      "additional": "Atstars, Gido, Gidons, Gvida, Gvidālija, Gvidis, Gvidons, Gvineta"
+    }
+  },
+  "04": {
+    "01": {
+      "regular": "Dagnis, Dagne",
+      "additional": "Dagna, Dagnijs, Dagnita, Gizela, Glaima, Glauda, Gledisa, Glenda, Glendija, Glens, Glita, Gvenda, Innocentijs"
+    },
+    "02": {
+      "regular": "Irmgarde",
+      "additional": "Gracija, Grācija, Gracijans, Grants, Grānts, Grasilda, Grata, Grats, Gražina, Grizelda, Irmgarda, Irmtrauta, Irmtraute"
+    },
+    "03": {
+      "regular": "Daira, Dairis, Daiva, Daivis",
+      "additional": "Dairita, Grineta, Grinete, Grita"
+    },
+    "04": {
+      "regular": "Valda, Herta, Ārvalda, Ārvalds, Ārvaldis",
+      "additional": "Arvalda, Arvaldis, Arvalds, Arvaldina"
+    },
+    "05": {
+      "regular": "Vija, Vidaga, Aivija",
+      "additional": "Aivijs, Vidaija, Vide, Videga, Vīdega, Vijars, Vijārs"
+    },
+    "06": {
+      "regular": "Zinta, Vīlips, Filips, Dzinta",
+      "additional": "Dzīne, Dzintis, Filipina, Fīlips"
+    },
+    "07": {
+      "regular": "Zina, Zinaīda, Helmuts",
+      "additional": "Elmo, Elmonds, Elmuts, Helmute, Helmūts, Zena, Zenaida, Zīna, Zinaida, Zinaidis, Zinaids, Zinīda"
+    },
+    "08": {
+      "regular": "Edgars, Danute, Dana, Dans",
+      "additional": "Adgars, Dajana, Dane, Daneks, Daneta, Danica, Danida, Danija, Danijs, Danika, Danīna, Danis, Danita, Danna, Danuta, Daņuta, Denija, Denijs, Edgards, Edgārs"
+    },
+    "09": {
+      "regular": "Valērija, Žubīte, Alla",
+      "additional": "Allija, Alondra, Aļa, Aļesja, Matrjona, Matrona, Valeriana, Valerianna, Valerija, Valerijana, Valerina, Valerjana"
+    },
+    "10": {
+      "regular": "Anita, Anitra, Zīle, Annika",
+      "additional": "Anaita, Aniceta, Anicets, Anija, Anika, Anis, Zīlīte"
+    },
+    "11": {
+      "regular": "Hermanis, Vilmārs",
+      "additional": "Ermanis, Ērmanis, Ermans, Ernando, Hermans, Hermunds, Vilmars"
+    },
+    "12": {
+      "regular": "Jūlijs, Ainis",
+      "additional": "Julijans, Julijāns, Jūlijans, Julijs, Juliuss, Jūliuss, Juļjans, Juļjāns"
+    },
+    "13": {
+      "regular": "Egils, Egīls, Nauris",
+      "additional": "Aigils, Naula, Neila, Neils, Noela, Noels, Nolāns"
+    },
+    "14": {
+      "regular": "Strauja, Gudrīte",
+      "additional": "Engelberts, Engelīna, Gudmunds, Gudruna, Sagita, Siguta, Sigute, Zigeta, Zigija"
+    },
+    "15": {
+      "regular": "Aelita, Gastons",
+      "additional": "Haida, Haide, Haideja, Hamilkārs, Heidija, Heilija"
+    },
+    "16": {
+      "regular": "Mintauts, Alfs, Bernadeta",
+      "additional": "Alfa, Alfejs, Alfija, Alfijs, Bernada, Bernade, Bernāde, Bernadete, Bernadita, Bernadite, Bernadīte, Mindaugs, Mingaile"
+    },
+    "17": {
+      "regular": "Rūdolfs, Viviāna, Rūdis",
+      "additional": "Hardija, Hardijs, Hārdijs, Hardis, Harlijs, Harvijs, Hārvijs, Kardijs, Rudi, Rudiards, Rudolfs, Viviana, Viviena, Vivjena"
+    },
+    "18": {
+      "regular": "Laura, Jadviga",
+      "additional": "Jadvīga, Jadze, Jedviga, Laure, Laurentīna, Laureta, Laurita"
+    },
+    "19": {
+      "regular": "Vēsma, Fanija",
+      "additional": "Fani, Fannija, Fēbe, Feja, Felonija, Fenija, Feona, Feonija, Fionija, Flēra, Hēlija, Helijs, Heliodors, Helita, Helju, Hella, Hellija, Helta, Vēsmiņa"
+    },
+    "20": {
+      "regular": "Mirta, Ziedīte",
+      "additional": "Bitīte, Flora, Floransa, Florence, Florentija, Florentina, Florentīna, Florentine, Florentīne, Floriana, Florians, Floriāns, Florija, Florijana, Florijans, Florijs, Hendija, Henija, Henisa, Henita, Hennija, Henno, Hiacinta, Jacinta, Meija, Orhideja, Orions"
+    },
+    "21": {
+      "regular": "Marģers, Anastasija",
+      "additional": "Afanasija, Afanasijs, Anastāsija, Anastasijs, Anastāsijs, Anastazija, Anastāzija, Anastazijs, Anastāzijs, Atanazijs, Hera, Hēra, Herenija, Herita, Marģeris, Marģis, Nastasija, Nastja"
+    },
+    "22": {
+      "regular": "Armands, Armanda",
+      "additional": "Armando, Armants, Arma, Armass, Hete, Hetija, Hevena, Hevijs, Vadims"
+    },
+    "23": {
+      "regular": "Jurģis, Juris, Georgs",
+      "additional": "Džordžs, Georgijs, Irži, Ježijs, Jirgens, Jorgens, Jurands, Juranta, Jureks, Jureta, Jurgita, Jurijs, Jurika, Juriks, Jurita, Žoržs"
+    },
+    "24": {
+      "regular": "Visvaldis, Nameda, Ritvaldis, Ritums",
+      "additional": "Honorads, Honorata, Honoreta, Horsts, Hortenzija, Ortenzija, Ortija, Ritvalds, Visvalda, Visvalds, Visvaris, Visvars"
+    },
+    "25": {
+      "regular": "Līksma, Bārbala",
+      "additional": "Barbala, Barbola, Borbala, Borbola, Borbula"
+    },
+    "26": {
+      "regular": "Alīna, Sandris, Rūsiņš",
+      "additional": "Aliāna, Alina, Aline, Alīne, Alinte, Aļina, Imars, Imārs, Imarts, Sandars, Sanders, Sandrino, Sandro, Sandrs, Sandors, Šandors"
+    },
+    "27": {
+      "regular": "Tāle, Raimonda, Raina, Klementīne",
+      "additional": "Ingolfs, Inolds, Klemans, Klemens, Klemenss, Klementijs, Klementina, Klementīna, Klementine, Klementīns, Klements, Klimans, Klimentijs, Klimentina, Klimentīna, Raima, Raimija, Raimona, Rimona, Rimonda, Tāla"
+    },
+    "28": {
+      "regular": "Gundega, Terēze",
+      "additional": "Inrigo, Teresa, Terēsa, Terese, Terēse, Teresija, Terēsija, Tereza, Terēza, Tereze, Terezija, Terēzija, Termija"
+    },
+    "29": {
+      "regular": "Vilnis, Raimonds, Laine",
+      "additional": "Irta, Iruta, Irute, Laina, Laineta, Lainis, Leina, Leino, Raimis, Raimo, Raimons, Raimunds, Reimo, Rimonds, Rimons"
+    },
+    "30": {
+      "regular": "Lilija, Liāna",
+      "additional": "Altairs, Dālija, Daļa, Elta, Eltons, Isma, Itallo, Italo, Itālo, Lia, Liana, Lianda, Lianta, Līlija, Lilja, Lillija"
+    }
+  },
+  "05": {
+    "01": {
+      "regular": "Ziedonis",
+      "additional": "Izanda, Izaura, Jalmars, Jūtvaldis, Kuzma, Ziednese, Ziedons, Ziedvalda"
+    },
+    "02": {
+      "regular": "Zigmunds, Sigmunds, Zigismunds",
+      "additional": "Jaroslava, Jaroslavs, Jeroslavs, Jurate, Jurāte, Jūrāte, Jūris, Sigismunds, Sigizmunds, Sigunds, Zigis, Zigizmunds, Zigmans, Zigmants, Zigmonds, Zigmonts, Zigmunda, Zigmunts"
+    },
+    "03": {
+      "regular": "Gints, Uvis",
+      "additional": "Gintis, Ģints, Jella, Jermolajs, Juvents, Juvita"
+    },
+    "04": {
+      "regular": "Vizbulīte, Viola, Vijolīte",
+      "additional": "Kaido, Violanda, Violanta, Violenta, Vizbule, Vizbulis"
+    },
+    "05": {
+      "regular": "Ģirts, Ģederts",
+      "additional": "Kaliksts, Kalins, Keisija, Keits, Omars, Omārs, Otars, Otārs, Rahmats, Raksana, Rašids"
+    },
+    "06": {
+      "regular": "Gaidis, Didzis",
+      "additional": "Dereks, Didrihs, Didriķis, Didžus, Dīters, Gaidonis, Gaidvars"
+    },
+    "07": {
+      "regular": "Henriete, Henrijs, Jete, Enriko",
+      "additional": "Anriete, Domicela, Domicele, Domicelija, Domicella, Donicela, Ennrike, Enrija, Enrijs, Enrika, Enriketa, Enriks, Genrieta, Henrieta, Henrija, Henrita, Jeta"
+    },
+    "08": {
+      "regular": "Staņislavs, Staņislava, Stefānija",
+      "additional": "Kasandra, Stanislava, Stanislavs, Stase, Stasija, Stasis, Stasja, Stass, Stefanida, Stefanīda, Stefanija, Stefi, Steisija, Stepanida, Stepanīda, Stepanija, Stepānija"
+    },
+    "09": {
+      "regular": "Klāvs, Einārs, Ervīns",
+      "additional": "Eina, Einards, Einars, Einarts, Einis, Eino, Ervids, Ervijs, Ervils, Ervīna, Ervins, Ervis, Ervita, Glafira, Glafīra, Kevins, Klaidis, Klaids, Klāss, Timiāna, Timo, Timofejs, Timotejs, Tims"
+    },
+    "10": {
+      "regular": "Maija, Paija",
+      "additional": "Keila, Keitlīna, Kelija, Kelina, Kellija, Kenets, Kestutis, Ketlina, Ketlīna, Ķestutis, Ķēstutis, Meja"
+    },
+    "11": {
+      "regular": "Milda, Karmena, Manfreds",
+      "additional": "Karmene, Kilikeja, Kima, Kimberlija, Kims, Manfrēds, Mildreda"
+    },
+    "12": {
+      "regular": "Valija, Ināra, Ina, Inārs",
+      "additional": "Anāra, Anars, Anārs, Īna, Inaida, Inara, Inārija, Inārijs, Inars, Inarta, Inarts, Inatra, Inija, Inna, Innara, Ino, Valijs, Vallija"
+    },
+    "13": {
+      "regular": "Irēna, Irīna, Ira, Iraīda",
+      "additional": "Airina, Airīna, Arina, Arīna, Arins, Arīns, Arions, Eirana, Īra, Iraida, Iraidis, Iranda, Irena, Irene, Irēne, Irenejs, Irenijs, Irēnijs, Irija, Īrija, Irina, Irinejs, Ironijs"
+    },
+    "14": {
+      "regular": "Krišjānis, Elfa, Aivita, Elvita",
+      "additional": "Elfija, Kristjans, Kristjānis, Krišjāns"
+    },
+    "15": {
+      "regular": "Sofija, Taiga, Airita, Arita",
+      "additional": "Airīte, Airlenda, Airtons, Gļebs, Safija, Sofja, Sonāte, Sonija, Sonita, Soņa, Volga, Zofija, Zosja"
+    },
+    "16": {
+      "regular": "Edvīns, Edijs",
+      "additional": "Edija, Ediks, Edis, Edvija, Edvijs, Edvīna, Edvīne, Edvins, Kleofa, Kleopatra, Kleotilda, Klodija, Klods, Klotilde"
+    },
+    "17": {
+      "regular": "Herberts, Dailis, Umberts",
+      "additional": "Dailonis, Dailons, Deila, Deils, Deja, Erberts, Erhards, Koleta, Uma"
+    },
+    "18": {
+      "regular": "Inese, Inesis, Ēriks",
+      "additional": "Erihs, Ērihs, Eriks, Ero, Ēro, Ignese, Inesa, Inesīte, Konsuela, Konsuella, Kreigs"
+    },
+    "19": {
+      "regular": "Lita, Sibilla, Teika",
+      "additional": "Ksaverija, Ksavērija, Ksaverijs, Ksavērijs, Ksavers"
+    },
+    "20": {
+      "regular": "Venta, Salvis, Selva",
+      "additional": "Fadejs, Lada, Ladislavs, Laira, Lala, Salvija, Salvijs, Salvo, Selvijs, Selvins, Selvis, Solvis, Tadeušs"
+    },
+    "21": {
+      "regular": "Ernestīne, Ingmārs, Akvelīna",
+      "additional": "Akilina, Akulina, Akuļina, Akvelina, Akvilina, Akvilīna, Avelina, Avelīna, Erneste, Ernestina, Ernestīna, Ernestine, Ingemāra, Ingemars, Ingemārs, Ingmāra, Ingmars, Ingomars, Inmārs"
+    },
+    "22": {
+      "regular": "Emīlija. Visu neparasto un kalendāros neierakstīto vārdu diena",
+      "additional": "Ahmads, Ahmeds, Airats, Ali, Alija, Džamila, Emiliana, Emilija, Emilijana, Emīlja, Emiljana, Farhads, Farida, Farids, Fatima, Fatina, Fatma, Gaidars, Gulnara, Guļnara, Horens, Indira, Indīra, Ismails, Kālebs, Karima, Karims, Mehribana, Murads, Muslims, Osmars"
+    },
+    "23": {
+      "regular": "Leontīne, Leokādija, Lonija, Ligija",
+      "additional": "Leokadija, Leontija, Leontijs, Leontina, Leontīna, Leontine, Leontins, Leontīns, Levantīna, Līgija, Ligindra, Lone, Lonita, Lonnija, Lontīne, Ļoņa"
+    },
+    "24": {
+      "regular": "Ilvija, Marlēna, Ziedone",
+      "additional": "Kurbads, Kurbats, Marlena, Marlens, Ziedonija"
+    },
+    "25": {
+      "regular": "Anšlavs, Junora",
+      "additional": "Andzelms, Anselms, Anzelma, Anzelms, Juna, Jūnija, Jūnijs, Junita, Junona, Junta, Krīvs"
+    },
+    "26": {
+      "regular": "Edvards, Edvarts, Eduards, Varis",
+      "additional": "Eduarda, Eduārds, Eduars, Edvarda, Edvārts, Eidis, Ezra, Tailers, Tedijs, Tedis, Varaidotis, Varaidots, Varimands, Varimants, Varita, Varīte, Varonis"
+    },
+    "27": {
+      "regular": "Dzidra, Gunita, Loreta, Dzidris",
+      "additional": "Aglikerija, Dzidrīte, Glikerija, Guneta, Gunitra, Laurēna, Lora, Lorands, Loransa, Loreina, Lorena, Lorēna, Lorens, Lorensa, Lorenss, Lorenta, Lorete, Lorija, Lorijs, Lorika, Lorina, Lorīna, Lorita"
+    },
+    "28": {
+      "regular": "Vilis, Vilhelms",
+      "additional": "Langina, Lengina, Leongina, Leongīna, Leongīne, Leongins, Leongīns, Logina, Longina, Longīna, Longins, Longīns, Vilārs, Vilberts, Vilens, Vilhelmins, Vilhelmīns, Vilijs, Viljams, Villems, Villijs, Viļa, Viļums, Viļus"
+    },
+    "29": {
+      "regular": "Maksis, Maksims, Raivis, Raivo",
+      "additional": "Lakija, Lara, Largija, Larija, Larijs, Larina, Larions, Laris, Maksimilians, Maksimiliāns, Maksimiljans, Makss, Raiva, Raivita"
+    },
+    "30": {
+      "regular": "Vitolds, Lolita, Letīcija",
+      "additional": "Jevdokija, Lalita, Lea, Leāna, Leāra, Leida, Leila, Leticija, Levijs, Levita, Logita, Lola, Lolija, Lollija, Vitolda, Vitols, Vītols"
+    },
+    "31": {
+      "regular": "Alīda, Jūsma",
+      "additional": "Alida, Alide, Alīde, Alidija, Alīdija, Alis, Amīda, Elīda, Faina, Jūsmiņš, Lendija, Petronela, Petronele, Petronelija, Petronella, Petronellija, Petroneļa, Petrunela, Petrunele, Petrunelija, Petruneļa"
+    }
+  },
+  "06": {
+    "01": {
+      "regular": "Biruta, Mairita, Bernedīne",
+      "additional": "Bernadina, Bernadīne, Birute, Leolita, Liāra, Liards, Mairīta, Mairīte, Mairuta, Nikodems, Nikodēms, Nikodims"
+    },
+    "02": {
+      "regular": "Lība, Emma",
+      "additional": "Eimija, Ema, Emija, Emilda, Emima, Emīna, Emme, Emmija, Liberata, Liberijs, Liona, Lioneta, Lionija"
+    },
+    "03": {
+      "regular": "Inta, Ineta, Intra",
+      "additional": "Inete, Inneta, Inota, Lipija, Lira, Līrija"
+    },
+    "04": {
+      "regular": "Elfrīda, Sintija, Sindija",
+      "additional": "Cera, Cerība, Ceronis, Cerons, Elfrīda, Elfrīde, Elfrīds, Sinda, Sindijs, Sindra, Sinita, Sinta, Sinti, Sintijs, Taive, Taivo, Toivo, Zinda, Zindra, Zinija"
+    },
+    "05": {
+      "regular": "Igors, Margots, Ingvars",
+      "additional": "Argija, Argils, Argita, Argo, Argods, Argons, Argots, Argunda, Arguts, Bonifacija, Bonifācija, Bonifacijs, Bonifācijs, Bonifatijs, Bonifātijs, Bonifats, Inguards, Ingvards, Ingvilda, Ingvilds, Igars, Jegors, Margonis, Margons, Margota, Margote, Marguss, Marguta, Marguts"
+    },
+    "06": {
+      "regular": "Ingrīda, Ardis",
+      "additional": "Ardijs, Ards, Ingra, Ingre, Ingreta, Ingrida, Ingrita, Kandida, Kendija, Kendisa, Loida"
+    },
+    "07": {
+      "regular": "Gaida, Arnis, Arno",
+      "additional": "Arne, Arnela, Arnijs, Arons, Ārons, Gaidīte, Loveta, Luana, Luāna, Luāra, Lueta, Lugra, Lukrecija, Lukrēcija"
+    },
+    "08": {
+      "regular": "Frīdis, Frīda, Mundra",
+      "additional": "Frida, Fridberts, Fridis, Munda, Mundis, Mundris, Mundrīte, Salamons, Salimona, Salimonija, Salimons, Salome, Salomeja, Salomija, Salomons, Solomeja, Solomija, Solomonija, Solomons, Solumeja, Šalome, Zalamans, Zālamans, Zalamons"
+    },
+    "09": {
+      "regular": "Ligita, Gita",
+      "additional": "Gitana, Gitāna, Gitija, Gits, Ļeda, Ļudgarda"
+    },
+    "10": {
+      "regular": "Malva, Anatols, Anatolijs",
+      "additional": "Anata, Anatolija, Mafalda, Mazalda"
+    },
+    "11": {
+      "regular": "Ingus, Mairis, Vidvuds",
+      "additional": "Engus, Inguss, Mairolds, Mairs, Makrina, Mamerts, Videvuds, Videvuts, Vidis, Vido, Vidulis, Vidvars, Veidvedis, Vidvuts"
+    },
+    "12": {
+      "regular": "Nora, Lenora, Ija",
+      "additional": "Īģe, Manda, Norgita, Norika, Noriņa, Noris, Norīte, Norītis, Norvalda, Nurja"
+    },
+    "13": {
+      "regular": "Zigfrīds, Ainārs, Uva",
+      "additional": "Aināra, Ainards, Ainars, Ūva, Uve, Ūve, Zigfrids"
+    },
+    "14": {
+      "regular": "Tija, Saiva, Sentis, Santis, Saivis",
+      "additional": "Saiga, Saigits, Saija, Saila, Sailensa, Sailita, Saira, Sairis, Sairita, Sairuss, Santijs, Santo, Santoss"
+    },
+    "15": {
+      "regular": "Baņuta, Žermēna, Vilija, Vits",
+      "additional": "Maranda, Maranta, Marats, Marenda, Moda, Modesta, Modests, Modis, Vila, Vilenta, Vilita, Vilja, Viljanta, Villija, Vitis, Vito, Vitus, Žermena"
+    },
+    "16": {
+      "regular": "Justīne, Juta",
+      "additional": "Džastina, Džastīne, Džastins, Justa, Justina, Justīna, Justine, Justīnija, Marsela, Marseljēza, Marsella, Marsels, Ustinija, Ustiņja"
+    },
+    "17": {
+      "regular": "Artūrs, Artis",
+      "additional": "Arčijs, Ārčijs, Arčils, Arsenijs, Arsēnijs, Arsens, Arsēns, Arsentijs, Artijs, Artiks, Arts, Arturs, Artuss, Mečeslavs, Mečislava, Mečislavs, Palmira, Palmīra, Paloma, Pamela"
+    },
+    "18": {
+      "regular": "Alberts, Madis",
+      "additional": "Adalberta, Adalberts, Alberta, Edelberts, Edilberts, Merseda, Mersēda, Mersedesa, Mervils"
+    },
+    "19": {
+      "regular": "Viktors, Nils",
+      "additional": "Mila, Mīla, Milana, Milāna, Milānija, Milans, Milāns, Mīle, Milena, Milēna, Milēnija, Milona, Milvards, Milvars, Milvija, Napoleons, Nila, Nilija, Nīls, Nilss, Niluta, Vikijs, Viktorijs, Vitors"
+    },
+    "20": {
+      "regular": "Rasma, Rasa, Maira",
+      "additional": "Maila, Maima, Maina, Mairina, Mimoza, Molija, Mollija, Mora, Morēna, Morgane, Rasita, Rasmīte, Rasulīte"
+    },
+    "21": {
+      "regular": "Emīls, Egita, Monvīds",
+      "additional": "Ahto, Egīna, Egīns, Egits, Emilians, Emilijans, Emīlijs, Emilis, Emīlis, Emiljans, Emils, Jemeļjans, Monrita, Monvida, Monvids"
+    },
+    "22": {
+      "regular": "Ludmila, Laimdots, Laimiņš",
+      "additional": "Bogdana, Bogdans, Bogumila, Laimdotis, Ludmilla, Lūlija"
+    },
+    "23": {
+      "regular": "Līga",
+      "additional": "Līgonis, Līgotnis"
+    },
+    "24": {
+      "regular": "Jānis",
+      "additional": "–"
+    },
+    "25": {
+      "regular": "Milija, Maiga",
+      "additional": "Maida, Maigone, Mia, Mija, Milica, Milita, Mille, Millija"
+    },
+    "26": {
+      "regular": "Ausma, Inguna, Ingūna, Inguns, Ausmis",
+      "additional": "Ingunda, Ingūns, Ingura, Ingūra, Ingurds, Ingurs, Inguta, Muza, Mūza, Naidžels"
+    },
+    "27": {
+      "regular": "Malvīne, Malvis",
+      "additional": "Jelisejs, Jeļisejs, Malvina, Malvīna, Malvine, Naila, Naina, Naira, Nansija, Naomi, Nensija"
+    },
+    "28": {
+      "regular": "Viesturs, Kitija, Viestards",
+      "additional": "Klitija, Narcise, Narciss, Narciza, Nargisa, Nargiza, Vestards, Viestars, Viestarts, Viesturis, Vieturs"
+    },
+    "29": {
+      "regular": "Pēteris, Pāvils, Pauls, Paulis",
+      "additional": "Narajana, Nareks, Narija, Nārija, Narimans, Narimants, Narine, Narinē, Pavels, Pāvels, Pavils, Pāvuls, Peta, Pēters, Petra, Petro, Petrs, Piters, Pīters, Pits, Pjotrs, Pola, Pols, Povils"
+    },
+    "30": {
+      "regular": "Tālivaldis, Mareks",
+      "additional": "Mareka, Mereks, Savelijs, Savēlijs, Tālivalda, Tālivalds, Tālvaldis"
+    }
+  },
+  "07": {
+    "01": {
+      "regular": "Imants, Rimants, Ingars, Intars",
+      "additional": "Ingārs, Ingera, Ingēra, Ingerts, Intārs, Nataniels, Natans, Nātans, Nazarijs, Rimands, Rimanta"
+    },
+    "02": {
+      "regular": "Lauma, Ilvars, Halina",
+      "additional": "Galina, Gaļina, Halīna, Ilvārs, Ilvers, Laumīte, Nāra, Necija, Neda"
+    },
+    "03": {
+      "regular": "Benita, Everita, Verita, Emerita",
+      "additional": "Benigna, Benilda, Benito, Emarita, Emerenciana, Emerencija, Emerencijana, Emerenta, Emerentiana, Emerentina, Emerentīne, Emertijana, Emīra, Emirita, Enerita, Gorijs, Gurijs"
+    },
+    "04": {
+      "regular": "Ulvis, Uldis, Sandis, Sandijs",
+      "additional": "Nērika, Neringa, Nida, Nigra, Sando, Sandus, Sanduss, Sendijs, Uldriķis, Ulfs, Ulvars, Ulvija, Ulvita"
+    },
+    "05": {
+      "regular": "Andžs, Andžejs, Edīte, Esmeralda",
+      "additional": "Anžijs, Edita, Edīta, Edite, Endžija, Esmeralde"
+    },
+    "06": {
+      "regular": "Anrijs, Arkādijs",
+      "additional": "Agripina, Agripīna, Anrī, Anris, Anriss, Anrita, Arkādija, Ēsa, Haldons, Haldors, Heldurs, Niāra, Niceta"
+    },
+    "07": {
+      "regular": "Alda, Maruta",
+      "additional": "Aldija, Aldīna, Māruta, Marute, Nija, Nijole, Niola"
+    },
+    "08": {
+      "regular": "Antra, Adele, Ada",
+      "additional": "Adaļa, Adela, Adelaida, Adelaīda, Adelaide, Adelgunde, Adelheida, Adelheide, Adelija, Adēlija, Adelions, Adeljans, Adeļa, Adeļjons, Adija, Adis, Antris, Fevronija, Nimmija, Nimue, Nira, Nīra, Nita"
+    },
+    "09": {
+      "regular": "Zaiga, Asne, Asna",
+      "additional": "Kirils, Kirills, Nominanda, Nona, Nonna, Zaigonis"
+    },
+    "10": {
+      "regular": "Lija, Olīvija, Olivers, Odrija",
+      "additional": "Olijs, Oliva, Olīva, Olivia, Olivija, Olvija, Olvita, Samsons"
+    },
+    "11": {
+      "regular": "Leonora, Svens",
+      "additional": "Lennijs, Lenvija, Leonorija, Svenis, Taila, Taimira, Taunis"
+    },
+    "12": {
+      "regular": "Indriķis, Ints, Namejs",
+      "additional": "Indreks, Indriks, Intis, Nameisis, Omula, Oniks, Oniksa"
+    },
+    "13": {
+      "regular": "Margrieta, Margarita",
+      "additional": "Magrieta, Malgožata, Margareta, Margarēta, Margarieta, Margieta, Margreta, Margrita, Marģieta, Mārģieta, Pegija"
+    },
+    "14": {
+      "regular": "Oskars, Ritvars, Anvars",
+      "additional": "Orlando, Ornella, Ornets, Oskarina, Oskarīna"
+    },
+    "15": {
+      "regular": "Egons, Egmonts, Egija, Henriks, Heinrihs",
+      "additional": "Ega, Egijs, Egmonds, Egmonta, Ego, Genrihs, Heincs, Heindrihs, Heinis, Heino, Heinriks, Hektors, Hendrihs, Hendriks, Henrihs, Henrika"
+    },
+    "16": {
+      "regular": "Hermīne, Estere, Liepa",
+      "additional": "Aleftina, Aleftīna, Aleftīne, Aleta, Alevtina, Alevtīna, Alevtine, Alevtīne, Esfira, Estera, Ēstere, Estra, Estris, Herma, Hermina, Hermīna, Hermine, Hervita, Ostins, Rainelda, Rainelde"
+    },
+    "17": {
+      "regular": "Aleksis, Aleksejs, Alekss",
+      "additional": "Aleks, Alika, Aliks, Aļika, Aļiks, Pijs, Pius"
+    },
+    "18": {
+      "regular": "Rozālija, Roze",
+      "additional": "Rosa, Rosita, Rosvita, Roza, Rozalija, Rozalinda, Rozemarija, Rozita, Rozīte, Rozmarija, Rozvita"
+    },
+    "19": {
+      "regular": "Jautrīte, Kamila, Digna, Sāra",
+      "additional": "Digne, Dignija, Jautra, Jautris, Kamēlija, Kamena, Kamilija, Kamīlija, Kamilla, Kamils, Kamita, Pireta, Sallija, Sallijs, Sarika, Sarita, Seila, Sella, Sellija, Zallija, Zara, Zāra, Zarina"
+    },
+    "20": {
+      "regular": "Ritma, Ramona",
+      "additional": "Platons, Plūdonis, Rada, Radimins, Ramons, Ramuna, Ramune, Ramute, Ritmars, Ritmārs, Rusanda, Ruzanna, Ruze"
+    },
+    "21": {
+      "regular": "Meldra, Meldris, Melisa",
+      "additional": "Potencija, Pudencija, Pudentija"
+    },
+    "22": {
+      "regular": "Marija, Marika, Marina",
+      "additional": "Marī, Mariamija, Mārika, Marīna, Marja, Marjama, Miriama, Mirjama, Mirjāma, Mirjana"
+    },
+    "23": {
+      "regular": "Magda, Magone, Mērija, Magdalēna",
+      "additional": "Madelaina, Madeleina, Madlena, Madlēna, Magdalena, Magdaliene, Magdalina, Magita, Meralda, Meri, Merīda, Merija, Merilina, Merita, Radislavs, Radmila, Radomirs"
+    },
+    "24": {
+      "regular": "Kristīne, Kristīna, Krista, Kristiāna, Kristiāns",
+      "additional": "Hristiāna, Kersti, Kerstina, Kriste, Kristela, Kristena, Kristiana, Kristiāne, Kristianna, Kristians, Kristija, Kristijana, Kristijans, Kristijāns, Kristilla, Kristina, Kristine, Ķersta, Ķērsta"
+    },
+    "25": {
+      "regular": "Jēkabs, Žaklīna",
+      "additional": "Džeims, Džeimss, Džeks, Džema, Džemma, Džems, Džemss, Džims, Jaceks, Jakobīna, Jakobs, Jākobs, Jakovs, Jakubs, Jākubs, Žaklina, Žaklīne, Žaks"
+    },
+    "26": {
+      "regular": "Anna, Ance, Annija",
+      "additional": "Ana, Anabella, Ancis, Anne, Annele, Annelija, Anniņa, Aņa, Aņeļa, Aņuta, Ona, Oneta"
+    },
+    "27": {
+      "regular": "Marta, Dita, Dite",
+      "additional": "Mārta, Martijana, Martina, Martīna, Radu, Radvilis, Radvils, Raēle"
+    },
+    "28": {
+      "regular": "Cecīlija, Cilda",
+      "additional": "Cecilija, Celerina, Celina, Celīna, Cicilija, Cildis, Cildonis, Cilija, Cilina, Cilmija, Cilnija, Rafaela, Rafaels, Rafaēls, Rafails, Rafiks"
+    },
+    "29": {
+      "regular": "Edmunds, Edžus, Vidmants",
+      "additional": "Asmunds, Ausmunds, Edmonda, Edmonds, Edmons, Edmunts, Raens, Raida, Raiders, Raido, Raiena, Raiens, Raigards, Raigo, Raija, Rajens, Vidmands, Vidmunds"
+    },
+    "30": {
+      "regular": "Valters, Renārs, Regnārs",
+      "additional": "Ragnars, Ragnārs, Ragnēda, Rāgners, Ragnija, Regnars, Reinards, Reinars, Reinārs, Reiners, Renards, Renars, Renarts, Rinards, Rinārs, Rintars, Valteris, Valtra, Valtraude, Valtrauta, Valtraute"
+    },
+    "31": {
+      "regular": "Rūta, Ruta, Angelika, Sigita",
+      "additional": "Andžela, Andželika, Andželīna, Andželita, Andžella, Andželo, Anga, Angarijs, Angela, Angelija, Angēlika, Angelina, Angelīna, Angelita, Angeļa, Anģelina, Anģelīna, Anhelita, Anžela, Anželika, Anželina, Anželita, Anžella, Rute, Rūte, Rūtiņa, Sigeta, Sigija, Sigits"
+    }
+  },
+  "08": {
+    "01": {
+      "regular": "Albīns, Albīna",
+      "additional": "Alba, Albina, Albine, Albīne, Albinsa, Rameka, Ramērs, Ramils, Ramina, Ramīna, Ramiro"
+    },
+    "02": {
+      "regular": "Normunds, Stefans",
+      "additional": "Elia, Eliana, Eliass, Eliašs, Elija, Ēlija, Elijass, Elijašs, Elijs, Eliots, Elis, Eljašs, Holgers, Iljana, Iļana, Iļja, Iļjana, Noa, Norlands, Norma, Normands, Normans, Normanta, Normants, Normens, Normuds, Normunda, Stefāns, Stepans, Stepons, Stīvens"
+    },
+    "03": {
+      "regular": "Augusts",
+      "additional": "Anufrijs, Augustins, Augustīns, Ogists, Oktavians, Oktavija, Oktāvija, Onufrija, Onufrijs"
+    },
+    "04": {
+      "regular": "Romāns, Romualds, Romualda",
+      "additional": "Roma, Romalda, Romalds, Romanda, Romands, Romanija, Romānija, Romans, Romants, Romass, Romeks, Romena, Romēna, Romēns, Romeo, Rometa, Romija, Romis, Roms, Romulds, Romvalda, Romvalds"
+    },
+    "05": {
+      "regular": "Osvalds, Arvils",
+      "additional": "Arvīns, Osvaldis, Rasmuss, Rauza, Ravena, Ravita, Salma, Salme"
+    },
+    "06": {
+      "regular": "Askolds, Aisma",
+      "additional": "Aista, Asma, Reds, Reičela, Reičele, Remberts"
+    },
+    "07": {
+      "regular": "Alfrēds, Madars, Fredis",
+      "additional": "Alfra, Alfreds, Alfrida, Alfrīda, Alfrids, Alfrīds, Alimpiada, Alva, Alvaro, Alvars, Fredijs, Freds, Olimpiada, Olimpija, Rema, Remigijs, Remijs, Remirs, Remo, Rems"
+    },
+    "08": {
+      "regular": "Mudīte, Vladislavs, Vladislava",
+      "additional": "Midīte, Mudijs, Mudiņš, Mudis, Renda, Rendija, Rendijs, Renē, Renno, Reno, Rens, Reons, Vlada, Vladeks"
+    },
+    "09": {
+      "regular": "Madara, Genoveva, Genovefa",
+      "additional": "Anfija, Anfisa, Genovaite, Genoveja, Genovera, Genuvefa, Gunavefa, Ģenovefa, Madare, Sava"
+    },
+    "10": {
+      "regular": "Brencis, Audris, Inuta, Audra",
+      "additional": "Auda, Audars, Brenda, Brendons, Breta, Brets, Brina, Brinda, Labrencis, Lars, Larss, Laurentijs, Lavrentijs"
+    },
+    "11": {
+      "regular": "Olga, Zita, Liega, Zigita",
+      "additional": "Alesja, Aļesja, Olesija, Olesja, Olgita, Olmars, Olrita, Oļesija, Oļesja, Oļesje"
+    },
+    "12": {
+      "regular": "Vizma, Klāra",
+      "additional": "Klara, Klēra, Reta, Rets, Revita, Revs, Vizulis"
+    },
+    "13": {
+      "regular": "Elvīra, Velga, Rēzija",
+      "additional": "Elvira, Elvīrs, Hipolits, Ilvīra, Ipolits, Rezēda, Rezenda, Rezija"
+    },
+    "14": {
+      "regular": "Zelma, Zemgus, Virma",
+      "additional": "Rianda, Riandra, Rids, Rieta, Selma, Zelmars, Zemlita, Zemvaldis, Zemvalds"
+    },
+    "15": {
+      "regular": "Zenta, Dzelde, Zelda",
+      "additional": "Dzeja, Dzestra, Rima, Rimars, Rimma, Rimvalda, Rinvalda, Zelga, Zenita"
+    },
+    "16": {
+      "regular": "Astra, Astrīda",
+      "additional": "Asterija, Astērija, Astērijs, Astrida, Astride, Astrīde, Astrids, Astrīds, Astrīte, Rinta, Rio, Riona, Rivo"
+    },
+    "17": {
+      "regular": "Vineta, Oļegs",
+      "additional": "Rjuriks, Roalds, Roans, Ruriks, Veneta, Venita, Venjamina, Veņa, Vinete, Vinets, Vinita"
+    },
+    "18": {
+      "regular": "Liene, Helēna, Elena, Ellena, Liena",
+      "additional": "Aļona, Elana, Elāna, Elands, Elans, Elāns, Elēna, Elens, Ellana, Helena, Helene, Helēne, Hellēna, Jeļena, Lena, Lēna, Lenija, Lenita, Lienīte, Ļena"
+    },
+    "19": {
+      "regular": "Melānija, Imanta",
+      "additional": "Imanda, Imandra, Malānija, Māle, Malgonija, Malinda, Malle, Meisija, Melanija, Melija, Melinda, Melisandra, Melizanda, Melizande, Rodžers, Roēna, Rogate"
+    },
+    "20": {
+      "regular": "Bernhards, Boriss, Rojs",
+      "additional": "Bernads, Bernarda, Bernarde, Bernardina, Bernardīna, Bernards, Bernārs, Bernats, Borislavs, Rokijs, Roko, Roksana, Roksolana, Samuela, Samuels, Samuēls, Samvels, Zamuels, Zāmuels, Zāmuēls"
+    },
+    "21": {
+      "regular": "Janīna, Linda",
+      "additional": "Janina, Jaņina, Jaņīna, Linde, Lindija, Lindons, Linna, Linsija, Romāra, Romina, Romunds, Romuss, Romuta"
+    },
+    "22": {
+      "regular": "Rudīte, Everts",
+      "additional": "Evans, Evarists, Evars, Evarts, Rode, Rodijs, Ruda"
+    },
+    "23": {
+      "regular": "Vitālijs, Ralfs, Valgudis",
+      "additional": "Ralda, Raldis, Rolfs, Rolijs, Rolita, Vitalija, Vitālija, Vitalijs, Vitalina, Vitalis, Vitālis, Vitalisa, Vitaliss, Vitāls, Vitars"
+    },
+    "24": {
+      "regular": "Bērtulis, Boļeslavs",
+      "additional": "Bartolomejs, Bārtulis, Bertolds, Bertrams, Bierants, Boļeslava, Rorijs, Rosma, Rostislavs, Varfolomejs, Varlams"
+    },
+    "25": {
+      "regular": "Ludvigs, Ludis, Ivonna, Patrīcija, Patriks",
+      "additional": "Ivona, Ivonda, Ivonija, Ludolfs, Lūdolfs, Ludovika, Ludoviks, Ludviga, Ludvika, Ludviks, Ludviķis, Ludvisa, Ludvise, Ludvisija, Luijs, Luiss, Ļudvise, Patricija, Patricijs, Patrisija"
+    },
+    "26": {
+      "regular": "Natālija, Tālija, Broņislavs, Broņislava",
+      "additional": "Bronija, Bronis, Bronislava, Bronislavs, Broņa, Nata, Natalī, Natalija, Natalja, Nataļja, Nate, Natela, Natella, Neta, Talija, Talita, Tihons"
+    },
+    "27": {
+      "regular": "Žanis, Jorens, Alens",
+      "additional": "Alana, Alans, Alēns, Allans, Allens, Alons, Džo, Džonatans, Džonijs, Džonis, Džons, Huans, Ivans, Janeks, Janis, Janošs, Jans, Jāns, Janušs, Joans, Johans, Jonatans, Jonatāns, Jonijs, Jons, Jorēns, Juhans, Žanno, Žano, Žans, Žuans"
+    },
+    "28": {
+      "regular": "Auguste, Guste",
+      "additional": "Augusta, Augustina, Augustīna, Augustīne, Gusta, Rovena, Rovēna, Rovens, Ruāna"
+    },
+    "29": {
+      "regular": "Armīns, Vismants, Aiga",
+      "additional": "Aigija, Aigijs, Aigis, Aigita, Aigo, Aigula, Armanis, Armans, Armāns, Armens, Armida, Armīda, Armīds, Armilda, Armins, Armis, Rubens, Rubīna, Rufina, Visija, Viskants, Visma, Vismands"
+    },
+    "30": {
+      "regular": "Alvis, Jolanta, Samanta",
+      "additional": "Alvija, Alvijs, Alvika, Alvita, Alvits, Jalanta, Jolanda, Jolands, Jolants, Jolita, Ruslana, Ruslands, Ruslans, Ruslāns"
+    },
+    "31": {
+      "regular": "Vilma, Aigars",
+      "additional": "Aigvars, Saksija, Valida, Valīda, Valisa, Valita, Vallida, Valma"
+    }
+  },
+  "09": {
+    "01": {
+      "regular": "Ilmārs, Iluta, Austrums",
+      "additional": "Hilmars, Hilmārs, Ilmāra, Ilmars, Salda"
+    },
+    "02": {
+      "regular": "Elīza, Lizete, Zete",
+      "additional": "Elisa, Elīsa, Elise, Eliss, Elīss, Eliza, Elize, Elizete, Elīze, Lisete, Lizabete, Lizbete, Līzbete, Lizelote, Lizeta, Sančo, Savina, Savīna, Savita, Zeta, Zetiņa"
+    },
+    "03": {
+      "regular": "Berta, Bella",
+      "additional": "Aribella, Belēna, Belinda, Berts, Sangrita, Sangvids, Sanlija, Sedriks, Senefra, Serafima, Serafims, Serafina, Seranta"
+    },
+    "04": {
+      "regular": "Dzintra, Dzintara, Dzintars",
+      "additional": "Ambere, Dimants, Dzintāra, Dzintārija, Dzintārs, Dzintris, Gintars, Gintārs, Gintauts, Ģintars, Zintars, Zintra"
+    },
+    "05": {
+      "regular": "Klaudija, Persijs, Vaida",
+      "additional": "Klavdija, Pērs, Vaidelotis, Vaidis"
+    },
+    "06": {
+      "regular": "Maigonis, Magnuss, Mariuss",
+      "additional": "Magnolija, Magnus, Maigons, Marjus, Maro"
+    },
+    "07": {
+      "regular": "Regīna, Ermīns",
+      "additional": "Erma, Ermina, Ermīna, Ermine, Ermīne, Ermionija, Ermonija, Regija, Regina, Regīns, Regita, Rego, Reģina, Reģīna, Sēlija, Selēna, Selina, Selīna, Selīne, Selinga, Selita, Senora, Serena, Serīna, Serlana, Sinora"
+    },
+    "08": {
+      "regular": "Ilga",
+      "additional": "Ilgards, Ilgars, Ilgārs, Ilgarts, Ilgnese, Sianda, Siandra, Sianta, Siāra"
+    },
+    "09": {
+      "regular": "Bruno, Telma",
+      "additional": "Bronhilda, Brunhilda, Brunhilde, Brunis, Brunita, Brunons, Brūss, Sidija, Sidnejs, Sidnija, Sidnijs, Sidonija, Sidžija, Teldijs, Telesfors, Zidija, Zidonija"
+    },
+    "10": {
+      "regular": "Jausma, Albertīne",
+      "additional": "Albertina, Albertīna, Albertine, Sigma, Sijanda, Zigma"
+    },
+    "11": {
+      "regular": "Signe, Signija",
+      "additional": "Siglinda, Siglinde, Signa, Signeja, Signejana, Signese, Signeta, Signijs, Signis, Signita, Zigna, Zigne"
+    },
+    "12": {
+      "regular": "Erna, Evita, Eva",
+      "additional": "Ernita, Ēva, Eve, Evelinda, Evelita, Evi, Evī, Ēvī, Evianna, Evīna, Silards, Sinatra"
+    },
+    "13": {
+      "regular": "Iza, Izabella",
+      "additional": "Genadijs, Genādijs, Gennadijs, Gennādijs, Isabela, Izabela, Īzaks, Singa, Singita, Singrita, Singūna, Singurs"
+    },
+    "14": {
+      "regular": "Sanita, Santa, Sanda, Sanija, Sandija",
+      "additional": "Marfa, Sana, Sandita, Saneta, Sanijs, Sanna, Sannija, Santana, Santija, Senda, Sendija, Sendlija, Senija"
+    },
+    "15": {
+      "regular": "Sandra, Gunvaldis, Gunvaris, Sondra",
+      "additional": "Gunivaldis, Gunivalds, Gunvalds, Gunvars, Sandriāna, Sandrīte, Santra, Sendra, Sondars, Sondris, Zandra"
+    },
+    "16": {
+      "regular": "Asja, Asnate, Dāgs",
+      "additional": "Anfims, Asija, Asnāte, Dags, Domna, Sirdsvalda, Sirdsvaldis, Sirdvalda"
+    },
+    "17": {
+      "regular": "Vera, Vaira, Vairis",
+      "additional": "Aila, Ailands, Ailenda, Aili, Ailija, Ailita, Ajla, Sīrija, Sīringa, Sirje, Sirke, Sivija, Vaila, Vaileta, Vairita, Vairīte, Vaironis, Vairons, Vaiva, Vaivars, Vēra, Verena, Verēna, Verija, Virēna"
+    },
+    "18": {
+      "regular": "Liesma, Elita, Alita",
+      "additional": "Elite, Eralds, Mefodijs, Metodijs, Skara, Skarleta, Skārleta, Skaudris"
+    },
+    "19": {
+      "regular": "Verners, Muntis",
+      "additional": "Munise, Sorenta, Spārīte, Spartaks, Spēkonis, Vernis, Vernons, Veronis"
+    },
+    "20": {
+      "regular": "Guntra, Ginters, Marianna",
+      "additional": "Mariana, Marians, Mariela, Marijana, Marijanna, Marijans, Maritana, Marjana, Marjanna, Marjans, Staldzis"
+    },
+    "21": {
+      "regular": "Modris, Matīss, Mariss",
+      "additional": "Marijs, Mārijs, Mario, Mariona, Marisa, Mateass, Matejs, Mateuss, Mateušs, Matiass, Matija, Matis, Matvejs, Maurīcijs, Metjū, Modriņš"
+    },
+    "22": {
+      "regular": "Māris, Mārica, Maigurs",
+      "additional": "Maris, Morics, Moriss, Steinārs, Stenlijs"
+    },
+    "23": {
+      "regular": "Vanda, Veneranda, Venija",
+      "additional": "Snorre, Vandze, Vaneranda, Vanesa, Vanese, Venefrīda, Venera, Venēra, Venerande, Veners, Venīna, Veniranda"
+    },
+    "24": {
+      "regular": "Agris, Agrita",
+      "additional": "Agrits, Agrons, Steidzīte, Steiga"
+    },
+    "25": {
+      "regular": "Rodrigo, Rauls",
+      "additional": "Raulis, Sulamite, Sulamīte, Svanhilda"
+    },
+    "26": {
+      "regular": "Gundars, Kurts, Knuts",
+      "additional": "Gundaris, Gundolfs, Gundra, Nikita, Ņikita, Šeila, Šeilija, Šeina, Šelbija, Šelda, Šellija, Šerona"
+    },
+    "27": {
+      "regular": "Ādolfs, Ilgonis",
+      "additional": "Ado, Adolfina, Ādolfina, Adolfīne, Ādolfīne, Adonija, Adonis, Adoniss, Delfija, Delfina, Delfīna, Delfīne, Ilgons, Širleja, Širlija"
+    },
+    "28": {
+      "regular": "Sergejs, Svetlana, Lana",
+      "additional": "Lāna, Sergo, Seržs, Sveta, Svetoslavs, Svjatoslavs, Vaclava, Vaclavs, Večella, Večeslavs, Večislavs, Venceslavs, Vencislava, Vencislavs, Venčeslavs, Vinca, Vinceslavs, Vincis, Vincs, Vjačeslavs"
+    },
+    "29": {
+      "regular": "Miķelis, Mikus, Miks, Mihails",
+      "additional": "Jumis, Maikls, Maiks, Mihaela, Mihaels, Mihailina, Mihalina, Mihalīna, Mihaļina, Mikaela, Mikaels, Mikalina, Mikēle, Mikija, Mikijs, Mikuss, Miķēlis, Mišela, Mišels"
+    },
+    "30": {
+      "regular": "Elma, Menarda, Elna",
+      "additional": "Elmija, Elmīna, Elmīne, Elnara, Elnāra, Elneta, Elnurs, Geronima, Geronims, Geronīms, Heronima, Heronims, Heronīms, Hieronīms, Jeronims, Jeronīms, Ļubova, Medards, Medarts, Medeja, Meinards, Meinhards, Mena, Mendija, Meredita"
+    }
+  },
+  "10": {
+    "01": {
+      "regular": "Zanda, Lāsma, Zandis",
+      "additional": "Lāse, Lasma, Lāsmiņa"
+    },
+    "02": {
+      "regular": "Ilma, Skaidris",
+      "additional": "Hilma, Ilme, Ilmija, Ilna, Terijs, Tesa, Tilla, Tillija, Tils"
+    },
+    "03": {
+      "regular": "Elza, Ilizana",
+      "additional": "Ilizane, Tira, Tits, Tobijs"
+    },
+    "04": {
+      "regular": "Modra, Francis, Dmitrijs",
+      "additional": "Dimārs, Dimitrijs, Ditmārs, Ferencs, Francs, Franeks, Franks, Fransuāza, Franuse, Frenks, Frensisa, Prans, Tora, Toralfs, Torija, Torolfs, Tors, Torvalds, Tūrs"
+    },
+    "05": {
+      "regular": "Amālija, Amēlija",
+      "additional": "Amelija, Amelita, Rostams, Rustams, Rusudana, Saida, Saids, Samija, Samira, Samīra, Samīrs, Semija, Sevda, Tagils, Tahirs, Tahmina, Timurs, Ulams, Vagifs, Vahtangs, Zemfira, Zemira, Zemīra"
+    },
+    "06": {
+      "regular": "Monika, Zilgma, Zilga",
+      "additional": "Mona, Monija, Monna, Treisija, Treviss, Zilgars, Zilgme"
+    },
+    "07": {
+      "regular": "Daumants, Druvvaldis",
+      "additional": "Augmants, Daumands, Druvaldis, Druvalds, Druvinalds, Druvvalds, Druvars, Tullija, Turaida, Turaids, Tusnelda"
+    },
+    "08": {
+      "regular": "Aina, Anete",
+      "additional": "Ainita, Aino, Ane, Aneka, Anela, Anēle, Anelija, Anēlija, Aneļa, Anēļa, Anese, Aneta, Anneta, Annete, Udo"
+    },
+    "09": {
+      "regular": "Elga, Helga, Elgars",
+      "additional": "Elgasts, Elgita, Elgons, Helge, Helgi, Helgrīda"
+    },
+    "10": {
+      "regular": "Arvīds, Arvis, Druvis",
+      "additional": "Arvedo, Arveds, Arvēds, Arvida, Arvīda, Arvīde, Arvids, Arvita, Arvo, Druvārs"
+    },
+    "11": {
+      "regular": "Monta, Tince, Silva",
+      "additional": "Haritons, Hartvigs, Monda, Montija, Montis, Monts, Silmonta, Silvana, Silvars, Silvers, Silveta, Silvita, Zilva"
+    },
+    "12": {
+      "regular": "Valfrīds, Kira",
+      "additional": "Cirēnija, Valfreds, Valfrēds, Valfrīda, Valfrids"
+    },
+    "13": {
+      "regular": "Irma, Mirga",
+      "additional": "Irmants, Irme, Irmina, Irmīna, Irmīne, Irmiņa, Mira, Mirabella, Miralda, Miranda, Miroslava, Miroslavs"
+    },
+    "14": {
+      "regular": "Vilhelmīne, Minna",
+      "additional": "Mīce, Mina, Minadora, Mindora, Vilhelma, Vilhelmina, Vilhelmīna, Vilhelmine"
+    },
+    "15": {
+      "regular": "Eda, Hedviga, Helvijs",
+      "additional": "Ede, Edīna, Edviga, Heda, Hedija, Hedijs, Hedvigs, Helvi, Helvigs, Helvija, Helvis, Helvita"
+    },
+    "16": {
+      "regular": "Daiga, Dinija, Dinārs",
+      "additional": "Daido, Daidze, Daiens, Daigars, Daigone, Daigonis, Daija, Dilans, Dinara, Dināra, Dinards, Dinars, Dineta, Dinijs, Dinnija"
+    },
+    "17": {
+      "regular": "Gaits, Karīna, Gaitis",
+      "additional": "Gaita, Karena, Kārena, Karens, Karija, Kārija, Karina, Kārina, Karine, Karinē, Karīne, Karita, Kerena"
+    },
+    "18": {
+      "regular": "Rolands, Rolanda, Ronalds, Erlends, Lūkass",
+      "additional": "Erlanda, Erlands, Erlenda, Erlens, Lukass, Railands, Railija, Railijs, Rolande, Rolando, Rolans, Rolāns, Rolanta, Rona, Ronalda, Ronaldo, Ronans, Ronda, Ronijs, Ronja, Ronta, Ronvalds"
+    },
+    "19": {
+      "regular": "Elīna, Drosma, Drosmis",
+      "additional": "Drosme, Drosmiņš, Drošvaldis, Drošvaris, Elika, Elina, Elīne, Elīns"
+    },
+    "20": {
+      "regular": "Leonīds, Leonīda",
+      "additional": "Leonida, Leonide, Leonids, Leonita, Pelageja"
+    },
+    "21": {
+      "regular": "Urzula, Severīns",
+      "additional": "Severīna, Severins, Severjans, Taida, Taīda, Taisa, Taisija, Taīsija, Ursula, Uršula, Uršule, Uršuļa"
+    },
+    "22": {
+      "regular": "Īrisa, Irīda, Airisa",
+      "additional": "Airida, Arisa, Iraisa, Iresa, Irida, Irisa"
+    },
+    "23": {
+      "regular": "Daina, Dainis, Dainida",
+      "additional": "Daimona, Daimonds, Daimons, Dainars, Dainārs, Dainarts, Dainita, Dainīte, Dainors, Deimonds, Deimons, Jevlampija"
+    },
+    "24": {
+      "regular": "Renāte, Modrīte, Mudrīte",
+      "additional": "Mudra, Mudris, Rana, Ranāte, Raneta, Ranita, Ranta, Rena, Rēna, Renata, Renāta, Renate, Reneta, Renija, Renijs, Renita, Renta, Rineta, Rinete"
+    },
+    "25": {
+      "regular": "Beāte, Beatrise",
+      "additional": "Beata, Beāta, Beate, Beatrisa, Biatrise, Gilarijs, Hilards, Hilarija, Hilarijs, Hilārijs, Hilars, Hilārs"
+    },
+    "26": {
+      "regular": "Amanda, Kaiva, Amanta",
+      "additional": "Amandis, Amands, Amantija, Amaranda, Amaranta, Amarilla, Amenta, Araminta, Azanda, Azella, Kaivis"
+    },
+    "27": {
+      "regular": "Lilita, Irita, Ita",
+      "additional": "Itars, Itārs, Itija, Itvars, Lillita, Praskovja, Proskovja"
+    },
+    "28": {
+      "regular": "Ņina, Ninona, Antoņina, Oksana",
+      "additional": "Aksana, Antonina, Antonīna, Nina, Nīna, Ninele, Ninella, Nineta, Niseta, Niveta, Ņīna, Oksāna"
+    },
+    "29": {
+      "regular": "Laimonis, Elvijs, Elva, Elvis, Laimis",
+      "additional": "Elvars, Elvi, Elviga, Elvigs, Elvija, Elvisa, Elviss, Elvo, Laimonds, Laimons, Laimonts, Laimutis, Laimzieds"
+    },
+    "30": {
+      "regular": "Nadīna, Ulla, Adīna",
+      "additional": "Adina, Adīne, Eila, Nadežda, Nadia, Nadija, Nadina, Nadīne, Ulda, Uldive, Uldze, Ulita, Uljana, Uljans, Ullija, Uļjana, Uļjans"
+    },
+    "31": {
+      "regular": "Valts, Rinalds, Rinalda",
+      "additional": "Rainis, Rainita, Rainolds, Rina, Rīna, Rinaldo, Rinalts, Vaits, Valta, Valtis"
+    }
+  },
+  "11": {
+    "01": {
+      "regular": "Ikars",
+      "additional": "Ihtiandrs, Ikola, Ildefons, Ildra, Iraklijs, Tautmīlis, Tautvaldis, Tautvaris, Ungars"
+    },
+    "02": {
+      "regular": "Vivita, Dzīle, Viva",
+      "additional": "Dzilvars, Venda, Vendeta, Vendija, Vendijs, Vivanta, Vivanto, Viveja, Viveta, Vivija, Vivina"
+    },
+    "03": {
+      "regular": "Ērika, Dagnija",
+      "additional": "Era, Ēra, Erena, Erēna, Erika, Hovards, Huberts, Hūberts, Valeska, Valve"
+    },
+    "04": {
+      "regular": "Atis, Otomārs, Oto",
+      "additional": "Ata, Otis, Otomars, Vega, Vegita"
+    },
+    "05": {
+      "regular": "Šarlote, Lote",
+      "additional": "Late, Lato, Lota, Šadija, Šarlota, Veidols, Veikla, Veiksma, Veimārs"
+    },
+    "06": {
+      "regular": "Linards, Leons, Leo, Leonards, Leonarda",
+      "additional": "Lenards, Lenārs, Lenarts, Leona, Leonāra, Leonardo, Leonarija, Leonārija, Leonars, Leonārs, Leone, Leonella, Leonhards, Leonija, Leonila, Leonilla, Linarda, Linārs, Linarts, Linerts, Lonards, Lonarts, Ļevs"
+    },
+    "07": {
+      "regular": "Helma, Lotārs",
+      "additional": "Helmī, Helmija, Helmīna, Helmīne, Lotars, Pērle, Vena, Vēna, Venancijs, Venantijs, Veno"
+    },
+    "08": {
+      "regular": "Aleksandra, Agra",
+      "additional": "Agreda, Agrida, Agrīda, Agrija, Agrīna, Agrite, Agrīte, Aleksa, Aleksandrija, Aleksandrina, Aleksandrīna, Aleksandrīne"
+    },
+    "09": {
+      "regular": "Teodors",
+      "additional": "Fedors, Fedots, Feodora, Feodors, Feodosija, Fjodors, Tea, Teo, Teobalds, Teodora, Teofila, Teofīla, Teofile, Teofilija, Teofīlija, Teofils, Teovils"
+    },
+    "10": {
+      "regular": "Mārtiņš, Mārcis, Markuss, Marks",
+      "additional": "Marcela, Marcelina, Marcella, Marciana, Marcianna, Marcijana, Marcijanna, Marcis, Marčela, Marčija, Marko, Markss, Markus, Martens, Martins, Martiņš, Mortens"
+    },
+    "11": {
+      "regular": "Ojārs, Rainers, Nellija",
+      "additional": "Lāčplēsis, Nele, Nelija, Nelima, Nelita, Nella, Neļa, Neonila, Neonilla, Rainars, Reimars, Reimārs"
+    },
+    "12": {
+      "regular": "Kaija, Kornēlija",
+      "additional": "Kaira, Kajs, Kajsa, Kornelija, Kornelijs, Kornēlijs, Kortnija, Veta, Vianda, Viāna, Vianita, Vianta, Vidards, Vidars, Vidarts, Vidavs, Zinovija, Zinovijs"
+    },
+    "13": {
+      "regular": "Eižens, Jevgeņijs, Jevgeņija",
+      "additional": "Augenija, Eiženijs, Eugenijs, Eugēnijs, Euģenijs, Euģēnijs, Evgenijs, Evgēnijs, Evģenijs, Evģēnijs, Jevgenija, Jevgēnija, Jevgenijs, Jevgēnijs, Jevgēņija, Jevgēņijs, Jevģenija, Jevģēnija, Jevģenijs, Jevģēnijs, Jevženija, Jevžēnija"
+    },
+    "14": {
+      "regular": "Fricis, Vikentijs, Vincents",
+      "additional": "Frederika, Frederiks, Friderika, Frideriks, Fridriha, Fridrihs, Frīdrihs, Spricis, Vicenta, Vicents, Vikars, Vincens, Vincenta, Vincentijs, Vincentina, Vincentīna, Vincentīne, Vinsents"
+    },
+    "15": {
+      "regular": "Leopolds, Undīne, Unda",
+      "additional": "Leopoldina, Undalgs, Undija, Undina, Undīna, Undis, Undita"
+    },
+    "16": {
+      "regular": "Banga, Glorija",
+      "additional": "Ganda, Jefimija, Jefims, Landa, Landijs, Vētra"
+    },
+    "17": {
+      "regular": "Hugo, Uga, Uģis",
+      "additional": "Higo, Igo, Ugo"
+    },
+    "18": {
+      "regular": "Aleksandrs, Doloresa, Brīve",
+      "additional": "Aleksanders, Aleksandris, Alesandrs, Brīva, Brīvīte, Dolita, Dollija, Laisve, Latvis, Latvīte, Zandars, Zanders"
+    },
+    "19": {
+      "regular": "Elizabete, Liza, Līze, Betija",
+      "additional": "Alžbeta, Beta, Betsija, Eba, Elizabeta, Elīzabeta, Elīzabete, Elizaveta, Elizavete, Elizbete, Elzabeta, Elžbeta, Jelizabeta, Jelizaveta, Jelizavete, Jeļizabeta, Jeļizaveta, Jeļizavete, Lisa, Lisija, Līza, Lize, Līziņa"
+    },
+    "20": {
+      "regular": "Anda, Andīna, Vigo",
+      "additional": "Andija, Andina, Andīne, Nanda, Viga, Vīga, Vīgants, Vigars, Vigda, Vigelijs, Vigeta, Vigija, Vigilija, Vigilijs, Vigita, Vīgo, Viģīlija"
+    },
+    "21": {
+      "regular": "Zeltīte, Andis",
+      "additional": "Andars, Andejs, Andijs, Ando, Vigors, Vigorts, Vigra, Vigurds, Vilfrida, Vilfrīds, Vilibalds, Viliberts, Zelta, Zeltiņa, Zlata"
+    },
+    "22": {
+      "regular": "Aldis, Alfons, Aldris",
+      "additional": "Aldijs, Aldra, Alfins, Alfonija, Alfonss, Vilonija, Vilora"
+    },
+    "23": {
+      "regular": "Zigrīda, Zigfrīda, Zigrīds",
+      "additional": "Sigrīda, Sigrija, Sigruna, Sigrūna, Sigurnija, Ziga, Zigda, Zigfrida, Zigra, Zigrida, Zigrids, Zigrita, Zigvija"
+    },
+    "24": {
+      "regular": "Velta, Velda",
+      "additional": "Velards, Veldra, Velita, Velte, Veltija, Vīna, Vinārs, Viners, Vīne"
+    },
+    "25": {
+      "regular": "Katrīna, Kate, Kadrija, Trīne, Katrīne",
+      "additional": "Jekaterina, Jekaterīna, Kadija, Katalīna, Katarina, Katarīna, Katažina, Katerina, Katerīna, Katija, Katiņa, Katra, Katre, Katri, Katrina, Katrine, Katriona, Kecija, Keita, Keitija, Keitlina, Keta, Kēta, Kete, Kēte, Ketija, Ketri, Ketrija, Ketrina, Ketrīna, Trīna"
+    },
+    "26": {
+      "regular": "Konrāds, Sebastians",
+      "additional": "Kondrats, Kondrāts, Konrads, Konrands, Konrāts, Manefa, Sebastjans, Vingra"
+    },
+    "27": {
+      "regular": "Lauris, Norberts",
+      "additional": "Laurijs, Nords, Vinifreda, Vinifreds, Vinija, Vinnija, Vinolds, Vinona"
+    },
+    "28": {
+      "regular": "Rita, Vita, Olita",
+      "additional": "Olija, Olina, Olis, Ollija, Ritija, Vinta, Vintars, Vintārs, Vintra, Vints, Vitija"
+    },
+    "29": {
+      "regular": "Ignats, Virgīnija",
+      "additional": "Aimo, Ignatijs, Ignātijs, Ignāts, Vergenija, Virdžīnija, Virga, Virgenija, Virgilijs, Virgina, Virgīna, Virgine, Virgīne, Virginija, Virginijs, Virģinija, Virģīnija"
+    },
+    "30": {
+      "regular": "Andrievs, Andrejs, Andris",
+      "additional": "Anders, Anderss, Andrāšs, Andreass, Andrejans, Andrējs, Andress, Andrians, Andriāns, Andrijans, Andrijs, Androns, Andrs, Andruss, Endrijs, Endrū"
+    }
+  },
+  "12": {
+    "01": {
+      "regular": "Arnolds, Emanuels",
+      "additional": "Arnotijs, Arnulfs, Emanuela, Emanuēla, Emanuils, Emmanuels, Imanuels, Immanuels, Manuela, Manuēla, Noldis"
+    },
+    "02": {
+      "regular": "Meta, Sniedze",
+      "additional": "Mēta, Mets, Snežana, Snežanna, Sniedzīte, Sniga, Sņežana, Sņežanna, Voicehs, Voiceks, Voicihs, Voiciks, Voičiks, Voitiks"
+    },
+    "03": {
+      "regular": "Evija, Raita, Jogita",
+      "additional": "Akims, Ako, Džovita, Ēvija, Evijs, Evika, Evisa, Ēvisa, Jakims, Joahims, Joakims, Jovars, Jovita, Jugita, Jukums, Volfgangs, Volfreds, Volfrids, Volfrīds, Volfs"
+    },
+    "04": {
+      "regular": "Baiba, Barbara, Barba",
+      "additional": "Varvara, Vsevolods, Vudis, Vudro"
+    },
+    "05": {
+      "regular": "Sabīne, Sarma, Klaudijs",
+      "additional": "Sabina, Sabīna, Sabine, Sabrina, Sabrīna, Sabrīne, Sarme, Zabīne, Zanga, Zanza"
+    },
+    "06": {
+      "regular": "Nikolajs, Niklāvs, Niks, Nikola",
+      "additional": "Meikols, Meikulis, Meikuls, Nika, Nikandrs, Nikija, Nikijs, Niklass, Niklāss, Niklavs, Niko, Nikolass, Nikole, Nikoleta, Nikolīna, Nikolla, Ņika"
+    },
+    "07": {
+      "regular": "Antonija, Anta, Dzirkstīte",
+      "additional": "Antainna, Antija, Antonela, Antonida, Antonīda, Antuaneta, Antuanete, Tone, Tonija, Tonita, Toņa, Zbigņevs, Zdeneks"
+    },
+    "08": {
+      "regular": "Gunārs, Vladimirs, Gunis",
+      "additional": "Gināra, Ginārs, Gunāra, Gunards, Gunars, Gunarts, Gunijs, Gunnars, Guno, Vladilena, Vladilens, Vladimira, Vladis, Vladlena, Vladlēna, Vladlens, Vlads"
+    },
+    "09": {
+      "regular": "Tabita, Sarmīte",
+      "additional": "Sārtīte, Tabite, Zenobija, Zenona, Zenons"
+    },
+    "10": {
+      "regular": "Guna, Judīte",
+      "additional": "Džudīte, Gunefa, Nevils, Zēra"
+    },
+    "11": {
+      "regular": "Voldemārs, Valdemārs, Valdis",
+      "additional": "Valdeko, Valdeks, Valdemars, Valdimārts, Valdimirs, Valdmiers, Valdona, Valdone, Valdonis, Valdons, Valds, Vivaldis, Voldemars, Voldis, Voldmārs, Volmārs, Vulmārs"
+    },
+    "12": {
+      "regular": "Otīlija, Iveta",
+      "additional": "Atala, Atāls, Igeta, Igila, Igita, Iverta, Iverts, Ivete, Odeta, Odita, Ofēlija, Otālija, Otilija, Zezostrs"
+    },
+    "13": {
+      "regular": "Lūcija, Veldze",
+      "additional": "Lucianna, Lucians, Luciāns, Lucija, Lucijana, Lucijans, Lucijāns, Lusiāna, Lusija, Lūsija, Ļusja, Veldza"
+    },
+    "14": {
+      "regular": "Auseklis, Gaisma",
+      "additional": "Gaismīte, Gaismone, Gaismonis, Gaismons, Illuminata"
+    },
+    "15": {
+      "regular": "Johanna, Hanna, Jana",
+      "additional": "Hanelita, Hanija, Hannelora, Hannelore, Hannija, Jāna, Janeka, Janija, Janika, Janna, Joana, Joanna, Johana, Jonita, Juanna, Junna, Žuanete"
+    },
+    "16": {
+      "regular": "Alvīne",
+      "additional": "Alvina, Alvīna, Alvine, Alvīnija, Alvins, Alvīns, Zira, Zola, Zolija"
+    },
+    "17": {
+      "regular": "Hilda, Teiksma",
+      "additional": "Borghilde, Borģīne, Dziesma, Hildegarde, Hildura, Hilga, Hilja, Ilda, Ildars"
+    },
+    "18": {
+      "regular": "Kristaps, Kristofers, Krists, Klinta, Kristers",
+      "additional": "Klints, Kriss, Kristafors, Kristans, Kristars, Kristens, Kristo, Kristofors, Kristofs, Kšištofs"
+    },
+    "19": {
+      "regular": "Lelde, Sarmis",
+      "additional": "Alena, Alēna, Alereins, Lelda, Tots"
+    },
+    "20": {
+      "regular": "Arta, Minjona",
+      "additional": "Artemida, Artemijs, Artēmijs, Artija, Artjoms, Vitnija"
+    },
+    "21": {
+      "regular": "Toms, Tomass, Saulcerīte",
+      "additional": "Saulceris, Saulgaida, Saulgaitis, Tomašs, Tomāšs, Tomijs, Tumašs"
+    },
+    "22": {
+      "regular": "Saulvedis, Saule",
+      "additional": "Saulīte, Saulstarīte, Saulstars, Saulvija"
+    },
+    "23": {
+      "regular": "Viktorija, Balva",
+      "additional": "Vika, Vikija, Viktora, Viktorina"
+    },
+    "24": {
+      "regular": "Ādams, Ieva",
+      "additional": "Ieviņa, Odums"
+    },
+    "25": {
+      "regular": "Stella, Larisa",
+      "additional": "Estella, Zvaigznīte"
+    },
+    "26": {
+      "regular": "Dainuvīte, Gija, Megija",
+      "additional": "Dainavīte, Gijs, Mega, Megana"
+    },
+    "27": {
+      "regular": "Elmārs, Inita, Helmārs",
+      "additional": "Elmāra, Elmars, Helmars, Initra"
+    },
+    "28": {
+      "regular": "Inga, Ivita, Irvita, Ingeborga",
+      "additional": "Inge, Ingerūda, Ingeta, Ingita, Ingo, Irvalds, Irvings, Irvins, Irvīns"
+    },
+    "29": {
+      "regular": "Solveiga, Ilgona",
+      "additional": "Invalds, Invars, Inveiga, Solanža, Solvega, Solvēga"
+    },
+    "30": {
+      "regular": "Dāvids, Dāvis, Dāniels, Daniela, Daniels",
+      "additional": "Daniēla, Dāniela, Daniella, Daniēls, Daniils, Danils, Daņiils, Daņila, Daņils, Dato, Davids, Dāvīds, Dāvs, Deivids, Deivija, Deivijs, Deivis, Deivs, Deniels, Dēvids, Dēvija, Dēvijs"
+    },
+    "31": {
+      "regular": "Silvestrs, Silvis, Kalvis",
+      "additional": "Kalve, Silvesters, Silvestra, Silvestris"
+    }
+  }
+}

@@ -1,15 +1,21 @@
 package com.uldisj.vardadienuapp.view.activities
 
+import android.Manifest
 import android.annotation.SuppressLint
 import android.app.AlarmManager
+import android.app.AlertDialog
 import android.app.Dialog
 import android.app.PendingIntent
+import android.app.PendingIntent.FLAG_IMMUTABLE
 import android.content.Intent
 import android.content.SharedPreferences
+import android.os.Build
 import android.os.Bundle
+import android.provider.Settings
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.app.AppCompatActivity
+import androidx.core.app.NotificationManagerCompat
 import androidx.lifecycle.ViewModelProvider
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.MobileAds
@@ -20,7 +26,7 @@ import com.uldisj.vardadienuapp.databinding.ActivityMainBinding
 import com.uldisj.vardadienuapp.model.notification.NotifyReceiver
 import com.uldisj.vardadienuapp.utils.DateUtil
 import com.uldisj.vardadienuapp.viewmodel.NameDayViewModel
-import java.util.*
+import java.util.Calendar
 
 class MainActivity : AppCompatActivity() {
 
@@ -44,6 +50,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
         setUpActionBar()
+
+        checkAndRequestPermission()
 
         settings = getSharedPreferences("NameDayAppPreferences", MODE_PRIVATE)
         editor = settings.edit()
@@ -94,9 +102,18 @@ class MainActivity : AppCompatActivity() {
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
+
         when (item.itemId) {
             R.id.action_settings -> {
-                showTimePicker()
+                if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+                    if (NotificationManagerCompat.from(this).areNotificationsEnabled()) {
+                        showTimePicker()
+                    } else {
+                        showEnableNotificationsPopup()
+                    }
+                } else {
+                    showTimePicker()
+                }
             }
         }
 
@@ -128,12 +145,30 @@ class MainActivity : AppCompatActivity() {
 
     }
 
+    private fun showEnableNotificationsPopup() {
+        val builder = AlertDialog.Builder(this)
+        builder.setTitle("Ieslēgt paziņojumus")
+        builder.setMessage("Paziņojumi ir izslēgti. Lūdzu, ieslēdziet tos, lai saņemtu paziņojumus par vārda dienām.")
+        builder.setPositiveButton("Ieslēgt") { dialog, _ ->
+            val intent = Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+                .putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
+            startActivity(intent)
+            dialog.dismiss()
+        }
+        builder.setNegativeButton("Atcelt") { dialog, _ ->
+            dialog.dismiss()
+        }
+        builder.show()
+    }
+
     @SuppressLint("SetTextI18n")
     private fun nameDayViewModelObserver() {
         nameDayViewModel.nameDayResponse.observe(this) { nameDayResponse ->
             nameDayResponse?.let {
-                binding.tvNameDays.text =
-                    nameDayResponse.toString()
+                binding.tvNameDaysRegular.text =
+                    nameDayResponse.regular
+                binding.tvNameDaysAdditional.text =
+                    nameDayResponse.additional
                 binding.tvDate.text = DateUtil().getDate("dd")
                 binding.tvDayText.text = DateUtil().getDayInLatvian()
                 binding.tvMonthText.text = DateUtil().getMonthInLatvian()
@@ -142,7 +177,7 @@ class MainActivity : AppCompatActivity() {
         nameDayViewModel.nameDayLoadingError.observe(this) { dataError ->
             dataError?.let {
                 if (dataError) {
-                    binding.tvNameDays.text = "Kaut kas nogāja greizi..."
+                    binding.tvNameDaysRegular.text = "Kaut kas nogāja greizi..."
                 }
             }
         }
@@ -165,7 +200,7 @@ class MainActivity : AppCompatActivity() {
     private fun startWork() {
         alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
         val intent = Intent(this, NotifyReceiver::class.java)
-        pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
+        pendingIntent = PendingIntent.getBroadcast(this, 0, intent, FLAG_IMMUTABLE)
 
         alarmManager.setExactAndAllowWhileIdle(
             AlarmManager.RTC_WAKEUP, calendar.timeInMillis, pendingIntent
@@ -175,8 +210,16 @@ class MainActivity : AppCompatActivity() {
     private fun stopWork() {
         alarmManager = getSystemService(ALARM_SERVICE) as AlarmManager
         val intent = Intent(this, NotifyReceiver::class.java)
-        pendingIntent = PendingIntent.getBroadcast(this, 0, intent, 0)
+        pendingIntent = PendingIntent.getBroadcast(this, 0, intent, FLAG_IMMUTABLE)
 
         alarmManager.cancel(pendingIntent)
+    }
+
+    private fun checkAndRequestPermission() {
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU) {
+            if (!NotificationManagerCompat.from(this).areNotificationsEnabled()) {
+                requestPermissions(arrayOf(Manifest.permission.POST_NOTIFICATIONS), 2)
+            }
+        }
     }
 }
